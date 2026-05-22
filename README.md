@@ -85,13 +85,13 @@ class Shivam:
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Shivamchaubey14&show_icons=true&theme=dark&bg_color=0d1117&title_color=00e5a0&icon_color=00b8ff&text_color=c9d1d9&border_color=30363d&hide_border=false&include_all_commits=true&count_private=true" height="180" alt="GitHub Stats"/>
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Shivamchaubey14&show_icons=true&theme=dark&bg_color=0d1117&title_color=00e5a0&icon_color=00b8ff&text_color=c9d1d9&border_color=30363d&hide_border=false&include_all_commits=true&count_private=true&cache_seconds=86400" height="180" alt="GitHub Stats"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shivamchaubey14&layout=compact&theme=dark&bg_color=0d1117&title_color=00e5a0&text_color=c9d1d9&border_color=30363d&hide_border=false&langs_count=8" height="180" alt="Top Languages"/>
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Shivamchaubey14&layout=compact&theme=dark&bg_color=0d1117&title_color=00e5a0&text_color=c9d1d9&border_color=30363d&hide_border=false&langs_count=8&cache_seconds=86400" height="180" alt="Top Languages"/>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Shivamchaubey14&theme=dark&background=0d1117&ring=00e5a0&fire=f5a623&currStreakLabel=00b8ff&sideLabels=c9d1d9&border=30363d&dates=888888" alt="GitHub Streak"/>
+<img src="https://streak-stats.demolab.com/?user=Shivamchaubey14&theme=dark&background=0d1117&ring=00e5a0&fire=f5a623&currStreakLabel=00b8ff&sideLabels=c9d1d9&border=30363d&dates=888888" alt="GitHub Streak"/>
 
 </div>
 
@@ -102,21 +102,21 @@ class Shivam:
 <div align="center">
 
 <a href="https://github.com/Shivamchaubey14/leetcode_visualizer">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Shivamchaubey14&repo=leetcode_visualizer&theme=dark&bg_color=0d1117&title_color=00e5a0&icon_color=00b8ff&text_color=c9d1d9&border_color=30363d" alt="AlgoScope"/>
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=Shivamchaubey14&repo=leetcode_visualizer&theme=dark&bg_color=0d1117&title_color=00e5a0&icon_color=00b8ff&text_color=c9d1d9&border_color=30363d&cache_seconds=86400" alt="AlgoScope"/>
 </a>
 &nbsp;
 <a href="https://github.com/Shivamchaubey14/Tindog">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Shivamchaubey14&repo=Tindog&theme=dark&bg_color=0d1117&title_color=00e5a0&icon_color=00b8ff&text_color=c9d1d9&border_color=30363d" alt="Tindog"/>
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=Shivamchaubey14&repo=Tindog&theme=dark&bg_color=0d1117&title_color=00e5a0&icon_color=00b8ff&text_color=c9d1d9&border_color=30363d&cache_seconds=86400" alt="Tindog"/>
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/Shivamchaubey14/DrumMaster">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Shivamchaubey14&repo=DrumMaster&theme=dark&bg_color=0d1117&title_color=00e5a0&icon_color=00b8ff&text_color=c9d1d9&border_color=30363d" alt="DrumMaster"/>
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=Shivamchaubey14&repo=DrumMaster&theme=dark&bg_color=0d1117&title_color=00e5a0&icon_color=00b8ff&text_color=c9d1d9&border_color=30363d&cache_seconds=86400" alt="DrumMaster"/>
 </a>
 &nbsp;
 <a href="https://github.com/Shivamchaubey14/TodoApp">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Shivamchaubey14&repo=TodoApp&theme=dark&bg_color=0d1117&title_color=00e5a0&icon_color=00b8ff&text_color=c9d1d9&border_color=30363d" alt="TodoApp"/>
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=Shivamchaubey14&repo=TodoApp&theme=dark&bg_color=0d1117&title_color=00e5a0&icon_color=00b8ff&text_color=c9d1d9&border_color=30363d&cache_seconds=86400" alt="TodoApp"/>
 </a>
 
 </div>
