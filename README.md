@@ -367,9 +367,9 @@ I'm most interested in conversations about backend architecture, applied AI, and
 
 [![GitHub](https://img.shields.io/badge/GitHub-Shivamchaubey14-E6EDF6?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1320)](https://github.com/Shivamchaubey14)
 &nbsp;
-[![Email](https://img.shields.io/badge/Email-shivamchaubey1412@gmail.com-7DD3FC?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1320)](mailto:shivamchaubey1412@gmail.com)
+[![Email](https://img.shields.io/badge/Email-shivamc36@gmail.com-7DD3FC?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1320)](mailto:shivamc36@gmail.com)
 &nbsp;
-[![Open to work](https://img.shields.io/badge/Open_to-Backend_·_AI_·_Full--Stack-A78BFA?style=for-the-badge&labelColor=0D1320)](mailto:shivamchaubey1412@gmail.com)
+[![Open to work](https://img.shields.io/badge/Open_to-Backend_·_AI_·_Full--Stack-A78BFA?style=for-the-badge&labelColor=0D1320)](mailto:shivamc36@gmail.com)
 
 </div>
 
