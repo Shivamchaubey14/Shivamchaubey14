@@ -92,11 +92,11 @@
   </g>
 
   
-  <g font-family="&#39;Segoe UI&#39;, Helvetica, Arial, sans-serif">
-    <text x="66" y="92" font-family="ui-monospace,&#39;SF Mono&#39;,Consolas,monospace" font-size="13" letter-spacing="4" fill="#7dd3fc">BACKEND SYSTEMS  ·  APPLIED AI</text>
+  <g font-family="&#39;Times New Roman&#39;, Georgia, serif">
+    <text x="66" y="92" font-family="&#39;Times New Roman&#39;, Georgia, serif" font-size="13" letter-spacing="4" fill="#7dd3fc">BACKEND SYSTEMS  ·  APPLIED AI</text>
     <text x="64" y="158" font-size="52" font-weight="700" letter-spacing="-1" fill="#eef3f9">Shivam Kumar Chaubey</text>
     <rect x="68" y="176" width="74" height="3" rx="1.5" fill="url(#rule)"></rect>
     <text x="66" y="212" font-size="23" font-weight="500" fill="#bcd6ee">Designing intelligent software systems.</text>
-    <text x="66" y="246" font-family="ui-monospace,&#39;SF Mono&#39;,Consolas,monospace" font-size="13.5" fill="#8aa0b8">Systems before syntax — backend architecture &amp; AI as an engineering discipline.</text>
+    <text x="66" y="246" font-family="&#39;Times New Roman&#39;, Georgia, serif" font-size="13.5" fill="#8aa0b8">Systems before syntax — backend architecture &amp; AI as an engineering discipline.</text>
   </g>
 </svg>
