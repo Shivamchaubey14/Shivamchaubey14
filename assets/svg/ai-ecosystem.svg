@@ -1,61 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 440" width="1000" height="440" role="img" aria-label="AI engineering ecosystem: LLMs, RAG, vector databases, agents, embeddings, prompt engineering and automation connected around a central inference core">
-  <title>AI Engineering Ecosystem</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 440" width="1000" height="440" fill="none" font-family="ui-monospace,&#39;SF Mono&#39;,Consolas,monospace" role="img" aria-label="AI engineering ecosystem">
   <defs>
-    <linearGradient id="aibg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0B0F16"/>
-      <stop offset="100%" stop-color="#0A0D13"/>
-    </linearGradient>
-    <radialGradient id="core" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#7DD3FC" stop-opacity="0.15"/>
+    <radialGradient id="core" cx="0.5" cy="0.42" r="0.6">
+      <stop offset="0" stop-color="#123a5e"></stop><stop offset="1" stop-color="#0b1a2c"></stop>
     </radialGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7DD3FC" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0.2"/>
-    </linearGradient>
+    <radialGradient id="bgglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#13314f" stop-opacity="0.5"></stop>
+      <stop offset="1" stop-color="#13314f" stop-opacity="0"></stop>
+    </radialGradient>
+    
   </defs>
-  <rect width="1000" height="440" rx="18" fill="url(#aibg)" stroke="#1A2334" stroke-width="1"/>
 
-  <!-- edges from core (500,220) to satellites -->
-  <g stroke="url(#edge)" stroke-width="1.4" fill="none">
-    <line x1="500" y1="220" x2="200" y2="90"/>
-    <line x1="500" y1="220" x2="500" y2="70"/>
-    <line x1="500" y1="220" x2="800" y2="90"/>
-    <line x1="500" y1="220" x2="850" y2="220"/>
-    <line x1="500" y1="220" x2="800" y2="350"/>
-    <line x1="500" y1="220" x2="500" y2="375"/>
-    <line x1="500" y1="220" x2="200" y2="350"/>
-    <line x1="500" y1="220" x2="150" y2="220"/>
+  <ellipse cx="500" cy="220" rx="430" ry="210" fill="url(#bgglow)"></ellipse>
+
+  
+  <g>
+    <line class="ln" x1="500" y1="220" x2="500" y2="62"></line>
+    <line class="ln" x1="500" y1="220" x2="762" y2="96" style="animation-delay:.2s"></line>
+    <line class="ln" x1="500" y1="220" x2="876" y2="220" style="animation-delay:.4s"></line>
+    <line class="ln" x1="500" y1="220" x2="762" y2="344" style="animation-delay:.6s"></line>
+    <line class="ln" x1="500" y1="220" x2="500" y2="378" style="animation-delay:.8s"></line>
+    <line class="ln" x1="500" y1="220" x2="238" y2="344" style="animation-delay:1s"></line>
+    <line class="ln" x1="500" y1="220" x2="124" y2="220" style="animation-delay:1.2s"></line>
+    <line class="ln" x1="500" y1="220" x2="238" y2="96" style="animation-delay:1.4s"></line>
   </g>
 
-  <!-- travelling pulses along a couple of edges -->
-  <circle r="3" fill="#E6EDF6">
-    <animateMotion dur="4s" repeatCount="indefinite" path="M500 220 L200 90"/>
-  </circle>
-  <circle r="3" fill="#E6EDF6">
-    <animateMotion dur="5s" repeatCount="indefinite" path="M500 220 L800 350"/>
-  </circle>
-  <circle r="3" fill="#E6EDF6">
-    <animateMotion dur="4.5s" repeatCount="indefinite" path="M500 220 L850 220"/>
-  </circle>
+  
+  <circle class="ring" cx="500" cy="220" r="86" fill="none" stroke="#7dd3fc" stroke-opacity="0.3" stroke-width="1"></circle>
+  <circle cx="500" cy="220" r="68" fill="url(#core)" stroke="#7dd3fc" stroke-opacity="0.55" stroke-width="1.5"></circle>
+  <text x="500" y="214" text-anchor="middle" font-size="15" font-weight="700" fill="#e6edf6">INFERENCE</text>
+  <text x="500" y="234" text-anchor="middle" font-size="15" font-weight="700" fill="#7dd3fc">CORE</text>
 
-  <!-- core -->
-  <circle cx="500" cy="220" r="56" fill="url(#core)">
-    <animate attributeName="r" values="54;60;54" dur="6s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="500" cy="220" r="56" fill="none" stroke="#A78BFA" stroke-width="1.4" opacity="0.7"/>
-  <text x="500" y="216" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#F2F6FC">AI</text>
-  <text x="500" y="234" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#CBD5E8">Inference Core</text>
-
-  <!-- satellite node template -->
-  <g font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#C7D3E6" text-anchor="middle">
-    <g><circle cx="200" cy="90" r="5" fill="#7DD3FC"/><text x="200" y="74">LLMs</text></g>
-    <g><circle cx="500" cy="70" r="5" fill="#A78BFA"/><text x="500" y="54">RAG Pipelines</text></g>
-    <g><circle cx="800" cy="90" r="5" fill="#7DD3FC"/><text x="800" y="74">Vector DBs</text></g>
-    <g><circle cx="850" cy="220" r="5" fill="#A78BFA"/><text x="850" y="204">AI Agents</text></g>
-    <g><circle cx="800" cy="350" r="5" fill="#7DD3FC"/><text x="800" y="372">Embeddings</text></g>
-    <g><circle cx="500" cy="375" r="5" fill="#A78BFA"/><text x="500" y="396">Prompt Engineering</text></g>
-    <g><circle cx="200" cy="350" r="5" fill="#7DD3FC"/><text x="200" y="372">Automation</text></g>
-    <g><circle cx="150" cy="220" r="5" fill="#A78BFA"/><text x="150" y="204">Python</text></g>
+  
+  <g font-size="13.5" fill="#cfe0ee">
+    <g><rect x="438" y="36" width="124" height="40" rx="20" fill="#0d1320" stroke="#a78bfa" stroke-opacity="0.45"></rect><text x="500" y="61" text-anchor="middle">LLMs</text></g>
+    <g><rect x="690" y="76" width="144" height="40" rx="20" fill="#0d1320" stroke="#7dd3fc" stroke-opacity="0.4"></rect><text x="762" y="101" text-anchor="middle">RAG Pipeline</text></g>
+    <g><rect x="792" y="200" width="168" height="40" rx="20" fill="#0d1320" stroke="#7dd3fc" stroke-opacity="0.4"></rect><text x="876" y="225" text-anchor="middle">Vector Search</text></g>
+    <g><rect x="694" y="324" width="136" height="40" rx="20" fill="#0d1320" stroke="#a78bfa" stroke-opacity="0.45"></rect><text x="762" y="349" text-anchor="middle">Agents</text></g>
+    <g><rect x="424" y="358" width="152" height="40" rx="20" fill="#0d1320" stroke="#7dd3fc" stroke-opacity="0.4"></rect><text x="500" y="383" text-anchor="middle">Embeddings</text></g>
+    <g><rect x="158" y="324" width="160" height="40" rx="20" fill="#0d1320" stroke="#a78bfa" stroke-opacity="0.45"></rect><text x="238" y="349" text-anchor="middle">Prompt Design</text></g>
+    <g><rect x="40" y="200" width="168" height="40" rx="20" fill="#0d1320" stroke="#7dd3fc" stroke-opacity="0.4"></rect><text x="124" y="225" text-anchor="middle">Tool Use</text></g>
+    <g><rect x="172" y="76" width="132" height="40" rx="20" fill="#0d1320" stroke="#7dd3fc" stroke-opacity="0.4"></rect><text x="238" y="101" text-anchor="middle">Evals</text></g>
   </g>
 </svg>

@@ -1,29 +1,37 @@
+<!--
+  ════════════════════════════════════════════════════════════════════
+   Shivam Kumar Chaubey — GitHub Profile README
+   Palette: deep navy #0D1320 · ice blue #7DD3FC · violet #A78BFA · slate #9FB0C7
+   Decorative art lives in ./assets/svg  ·  project shots in ./assets/img
+  ════════════════════════════════════════════════════════════════════
+-->
+
 <!-- ============================================================= -->
 <!--  HERO                                                         -->
 <!-- ============================================================= -->
 
 <div align="center">
 
-<img src="./assets/svg/hero.svg" alt="Shivam Kumar Chaubey — Designing Intelligent Software Systems" width="100%" />
+<img src="./assets/svg/hero.svg" alt="Shivam Kumar Chaubey — Designing intelligent software systems" width="100%" />
 
 <br/><br/>
 
-<a href="#projects"><img src="https://img.shields.io/badge/View_Projects-0D1320?style=for-the-badge&labelColor=0D1320&color=0D1320" alt="View Projects"/></a>
+<a href="#-selected-work"><img src="https://img.shields.io/badge/Selected_Work-7DD3FC?style=for-the-badge&labelColor=0D1320&color=0D1320" alt="Selected Work"/></a>
 &nbsp;
-<a href="#philosophy"><img src="https://img.shields.io/badge/Philosophy-0D1320?style=for-the-badge&labelColor=0D1320&color=0D1320" alt="Philosophy"/></a>
+<a href="#-ai-as-an-engineering-discipline"><img src="https://img.shields.io/badge/AI_Systems-A78BFA?style=for-the-badge&labelColor=0D1320&color=0D1320" alt="AI Systems"/></a>
 &nbsp;
-<a href="#connect"><img src="https://img.shields.io/badge/Connect-0D1320?style=for-the-badge&labelColor=0D1320&color=0D1320" alt="Connect"/></a>
+<a href="#-lets-build-something-that-has-to-work"><img src="https://img.shields.io/badge/Connect-E6EDF6?style=for-the-badge&labelColor=0D1320&color=0D1320" alt="Connect"/></a>
 
 <br/>
 
 <sub>
-<a href="#philosophy">Philosophy</a> &nbsp;·&nbsp;
-<a href="#expertise">Expertise</a> &nbsp;·&nbsp;
-<a href="#projects">Projects</a> &nbsp;·&nbsp;
-<a href="#ai">AI Systems</a> &nbsp;·&nbsp;
-<a href="#stack">Stack</a> &nbsp;·&nbsp;
-<a href="#focus">Focus</a> &nbsp;·&nbsp;
-<a href="#connect">Connect</a>
+<a href="#systems-before-syntax">Philosophy</a> &nbsp;·&nbsp;
+<a href="#-what-i-build">Expertise</a> &nbsp;·&nbsp;
+<a href="#-selected-work">Projects</a> &nbsp;·&nbsp;
+<a href="#-ai-as-an-engineering-discipline">AI Systems</a> &nbsp;·&nbsp;
+<a href="#-the-toolkit">Stack</a> &nbsp;·&nbsp;
+<a href="#-where-my-attention-is-now">Focus</a> &nbsp;·&nbsp;
+<a href="#-lets-build-something-that-has-to-work">Connect</a>
 </sub>
 
 </div>
@@ -34,8 +42,6 @@
 <!--  PHILOSOPHY                                                    -->
 <!-- ============================================================= -->
 
-<a id="philosophy"></a>
-
 <div align="center">
 
 ### Systems Before Syntax
@@ -44,7 +50,7 @@
 
 > Software is not a stack of libraries — it is a set of decisions that have to keep working under pressure.
 >
-> I build backend systems that stay predictable as they grow, and I treat artificial intelligence as an engineering discipline: data flows, evaluation, and reliability — not a magic box. I care about the parts of a system most people never see: the API contract that doesn't break, the query that stays fast at scale, the abstraction that a future engineer can actually reason about.
+> I build backend systems that stay predictable as they grow, and I treat artificial intelligence as an engineering discipline: retrieval, evaluation, and reliability — not a magic box. I care about the parts of a system most people never see: the API contract that doesn't break, the queue that absorbs a spike, the agent loop that stays traceable back to its sources.
 >
 > I think like a chess player — plan the structure, control the center, and only then commit to the move.
 
@@ -56,11 +62,9 @@
 <!--  EXPERTISE                                                     -->
 <!-- ============================================================= -->
 
-<a id="expertise"></a>
-
 <div align="center">
 
-### What I Build
+### ⬡ What I Build
 
 *Four domains, one mindset — design the system, then write the code.*
 
@@ -74,29 +78,29 @@
 
 #### ⬡ &nbsp;Backend Systems
 
-Reliable services that hold their shape under load — clean REST contracts, normalized data models, caching where it counts, and deployments that don't surprise you.
+Reliable services that hold their shape under load — clean REST contracts, normalized data models, async messaging, and deployments that don't surprise you.
 
-`Django` · `REST` · `PostgreSQL` · `Docker`
+`Django` · `DRF` · `PostgreSQL` · `Kafka` · `Redis`
 
 </td>
 <td width="50%" valign="top">
 
-#### ◇ &nbsp;Artificial Intelligence
+#### ◇ &nbsp;Applied AI
 
-LLM-powered features treated as real systems: retrieval, prompt design, and reasoning pipelines built to be evaluated and refined — not just demoed once.
+LLM features built as real systems: retrieval-augmented generation, agentic tool-use loops, and evaluation — grounded in data and traceable to sources.
 
-`LLMs` · `RAG` · `Prompt Engineering` · `Python`
+`Claude` · `LangGraph` · `RAG` · `Qdrant` · `ChromaDB`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### ❖ &nbsp;Frontend Experiences
+#### ❖ &nbsp;Distributed & Infra
 
-Interfaces built around clarity — component systems, responsive layouts, and motion used to explain rather than decorate.
+The machinery that keeps services independent and scalable — containerized workers, task queues, event streams, and reproducible deploys.
 
-`React` · `JavaScript` · `HTML5` · `CSS3`
+`Docker` · `Kubernetes` · `Celery` · `GitHub Actions`
 
 </td>
 <td width="50%" valign="top">
@@ -114,14 +118,12 @@ The fundamentals that make the rest hold up — data structures, algorithms, and
 <img src="./assets/svg/divider.svg" width="100%" alt="" />
 
 <!-- ============================================================= -->
-<!--  PROJECTS                                                      -->
+<!--  SELECTED WORK                                                 -->
 <!-- ============================================================= -->
-
-<a id="projects"></a>
 
 <div align="center">
 
-### Selected Work
+### ◆ Selected Work
 
 *A few systems I've designed and shipped.*
 
@@ -129,56 +131,95 @@ The fundamentals that make the rest hold up — data structures, algorithms, and
 
 <br/>
 
-<!-- Project 01 — image left, content right -->
+<!-- DeepResearch — backend/AI flagship, architecture-led -->
+<div align="center">
+
+#### DeepResearch — Agentic AI Research Assistant
+
+</div>
+
+> Ask a question → an autonomous agent **plans** sub-questions, **searches** the web and your documents, **verifies** claims against sources, and streams back a **cited research report** — live, step by step.
+
+Built as production engineering, not an API call: a Django/DRF API dispatches jobs onto **Kafka**, Python agent-workers run the plan→search→verify→cite loop against **Claude** with **Qdrant** for RAG, and **Redis** fans progress events back to the UI over SSE. Every service is containerized and scales independently on **Kubernetes**.
+
+```
+React (Vite) ─HTTP/SSE─► Django + DRF ─produce─► Kafka ─consume─► Agent Worker(s)
+     ▲                        │   ▲              topics              │
+     └─ live progress ◄ Redis ◄┴──────── events ──────────── Claude · Web Search
+                                                              Qdrant (RAG store)
+```
+
+`Django` · `Kafka` · `Qdrant` · `Redis` · `Claude` · `Docker` · `Kubernetes`
+&nbsp;&nbsp;[**Explore the repository →**](https://github.com/Shivamchaubey14/research-agent)
+
+<br/>
+
+<!-- PayZap — backend, architecture-led -->
+<div align="center">
+
+#### PayZap — Payment Gateway Backend
+
+</div>
+
+> A payments platform backed by the unglamorous pieces that actually matter: settlements, payouts, fraud checks, and webhooks that never drop a message.
+
+A Django service split into focused domains — `payments`, `payouts`, `settlements`, `merchants`, `fraud`, and `webhooks` — with monitoring, load tests, and a production Docker Compose stack. The interesting work is correctness under failure: idempotent webhook delivery, settlement reconciliation, and fraud signals evaluated inline.
+
+`Django` · `PostgreSQL` · `Redis` · `Docker` · `Fraud Detection` · `Webhooks`
+&nbsp;&nbsp;[**Explore the repository →**](https://github.com/Shivamchaubey14/payzap)
+
+<br/>
+
+<!-- LexAI — has real screenshot -->
 <table width="100%">
 <tr>
-<td width="52%" valign="middle">
-<a href="https://github.com/Shivamchaubey14/leetcode_visualizer">
-<img src="./assets/svg/project-algoscope.svg" width="100%" alt="AlgoScope — animated algorithm visualizer"/>
-</a>
-</td>
 <td width="48%" valign="middle">
 
-#### AlgoScope
+#### LexAI — Legal Contract Intelligence
 
-**Turning abstract algorithms into something you can watch think.**
+**Counsel-grade contract review in under 30 seconds.**
 
-A step-by-step visualizer that animates how sorting, searching, and graph algorithms actually execute — built to make the invisible logic of DSA legible.
+An autonomous agent that reads a contract end-to-end: it flags 12+ risky clause types, scores overall exposure, suggests redlines in a diff view, and answers questions with citations to the **exact clause and page**.
 
-The engineering challenge is timing: rendering each comparison and swap as a discrete, reversible state so the animation maps exactly to the algorithm, not an approximation of it.
+A **LangGraph** agent drives the loop — searching contract chunks and a legal-playbook knowledge base in **ChromaDB**, grounding every answer in real text. The full pipeline runs async on **Celery + Redis**.
 
-`Python` · `Django` · `JavaScript`
+`Django` · `LangGraph` · `ChromaDB` · `Claude Sonnet` · `Celery`
 
-[**Explore the repository →**](https://github.com/Shivamchaubey14/leetcode_visualizer)
+[**Explore the repository →**](https://github.com/Shivamchaubey14/legal-agent)
 
+</td>
+<td width="52%" valign="middle">
+<a href="https://github.com/Shivamchaubey14/legal-agent">
+<img src="./assets/img/lexai.png" width="100%" alt="LexAI — legal contract intelligence agent"/>
+</a>
 </td>
 </tr>
 </table>
 
 <br/>
 
-<!-- Project 02 — content left, image right -->
+<!-- AlgoScope — has real screenshot -->
 <table width="100%">
 <tr>
+<td width="52%" valign="middle">
+<a href="https://github.com/Shivamchaubey14/leetcode_visualizer">
+<img src="./assets/img/algoscope.png" width="100%" alt="AlgoScope — AI-powered algorithm visualizer"/>
+</a>
+</td>
 <td width="48%" valign="middle">
 
-#### LegalAgent
+#### AlgoScope — Algorithm Visualizer
 
-**An AI reading layer for documents people dread reading.**
+**Understand algorithms by watching them run.**
 
-A query-driven assistant that breaks dense legal text into structured reasoning — clauses, obligations, and risks — using LLMs as an analysis engine rather than a chat toy.
+Step through a LeetCode solution **line by line** — every variable mutation, array shift, and call-stack frame rendered in real time via a custom `sys.settrace()` execution engine, drawn as a color-coded SVG flow graph.
 
-The interesting work lives in the pipeline: grounding model output in the source document, shaping prompts for consistency, and keeping the reasoning traceable back to the text it came from.
+Each problem ships with an **AI-generated explanation** (English & Hindi) from LLaMA 3.1, cached permanently after first load — zero repeat API calls.
 
-`Python` · `LLMs` · `NLP`
+`Django` · `Python` · `sys.settrace` · `LLaMA 3.1` · `SVG`
 
-[**Explore the repository →**](https://github.com/Shivamchaubey14/LegalAgent)
+[**Explore the repository →**](https://github.com/Shivamchaubey14/leetcode_visualizer)
 
-</td>
-<td width="52%" valign="middle">
-<a href="https://github.com/Shivamchaubey14/LegalAgent">
-<img src="./assets/svg/project-legalagent.svg" width="100%" alt="LegalAgent — AI legal document reasoning"/>
-</a>
 </td>
 </tr>
 </table>
@@ -192,9 +233,10 @@ The interesting work lives in the pipeline: grounding model output in the source
 
 | Project | What it is | Stack |
 |:--|:--|:--|
-| [**Tindog**](https://github.com/Shivamchaubey14/Tindog) | A responsive "Tinder for dogs" landing page — layout and motion fundamentals | `Bootstrap` · `HTML` · `JS` |
-| [**DrumMaster**](https://github.com/Shivamchaubey14/DrumMaster) | A browser drum machine wired entirely to keyboard + event handling | `Vanilla JS` |
-| [**TodoApp**](https://github.com/Shivamchaubey14/TodoApp) | A React task manager focused on clean component state | `React` · `JS` |
+| [**MilkKart**](https://github.com/Shivamchaubey14/milkkart-backend) | Dairy quick-commerce platform — async Django backend + React Native app, Blinkit-style hyper-local delivery | `Django` · `MySQL` · `Redis` · `Celery` |
+| [**Video Renting Services**](https://github.com/Shivamchaubey14/Video-Renting-Backend-Services) | Backend services for a video-rental platform — catalog, rentals, billing | `Django` · `DRF` |
+| [**Issue Tracker**](https://github.com/Shivamchaubey14/issue-tracker) | Ticketing system to track and resolve common hostel issues | `Django` |
+| [**Solutions**](https://github.com/Shivamchaubey14/Solutions) | A growing library of LeetCode solutions & hints | `Python` |
 
 </details>
 </div>
@@ -205,23 +247,21 @@ The interesting work lives in the pipeline: grounding model output in the source
 <!--  AI SYSTEMS                                                    -->
 <!-- ============================================================= -->
 
-<a id="ai"></a>
-
 <div align="center">
 
-### AI as an Engineering Discipline
+### ◇ AI as an Engineering Discipline
 
 *Not a feature bolted on — a set of moving parts that have to be designed, measured, and trusted.*
 
 <br/>
 
-<img src="./assets/svg/ai-ecosystem.svg" width="90%" alt="AI engineering ecosystem: LLMs, RAG pipelines, vector databases, agents, embeddings, prompt engineering and automation connected around an inference core"/>
+<img src="./assets/svg/ai-ecosystem.svg" width="90%" alt="AI engineering ecosystem: LLMs, RAG pipelines, vector search, agents, embeddings, prompt design, tool use and evals connected around an inference core"/>
 
 <br/><br/>
 
 </div>
 
-A useful AI feature is a pipeline, not a prompt. Retrieval decides what the model sees; prompt structure decides how it reasons; evaluation decides whether you can ship it. I build these pieces to fit together — grounding language models in real data, keeping outputs traceable, and treating "is this actually correct?" as a first-class requirement rather than an afterthought.
+A useful AI feature is a pipeline, not a prompt. Retrieval decides what the model sees; prompt structure decides how it reasons; evaluation decides whether you can ship it. I build these pieces to fit together — grounding language models in real data, keeping outputs traceable to their sources, and treating *"is this actually correct?"* as a first-class requirement rather than an afterthought.
 
 <img src="./assets/svg/divider.svg" width="100%" alt="" />
 
@@ -229,11 +269,9 @@ A useful AI feature is a pipeline, not a prompt. Retrieval decides what the mode
 <!--  STACK                                                         -->
 <!-- ============================================================= -->
 
-<a id="stack"></a>
-
 <div align="center">
 
-### The Toolkit
+### ❖ The Toolkit
 
 *Chosen for what they let me build — grouped by where they live in a system.*
 
@@ -241,19 +279,19 @@ A useful AI feature is a pipeline, not a prompt. Retrieval decides what the mode
 
 **Languages & Core**
 
-<img src="https://skillicons.dev/icons?i=python,js,html,css&theme=dark" alt="Python, JavaScript, HTML, CSS"/>
+<img src="https://skillicons.dev/icons?i=python,js,ts,html,css&theme=dark" alt="Python, JavaScript, TypeScript, HTML, CSS"/>
 
 **Backend & Data**
 
-<img src="https://skillicons.dev/icons?i=django,postgres,sqlite,redis&theme=dark" alt="Django, PostgreSQL, SQLite, Redis"/>
+<img src="https://skillicons.dev/icons?i=django,fastapi,postgres,mysql,redis,sqlite,kafka&theme=dark" alt="Django, FastAPI, PostgreSQL, MySQL, Redis, SQLite, Kafka"/>
 
-**Frontend**
+**AI & Frontend**
 
-<img src="https://skillicons.dev/icons?i=react,bootstrap,tailwind&theme=dark" alt="React, Bootstrap, Tailwind"/>
+<img src="https://skillicons.dev/icons?i=pytorch,react,bootstrap,tailwind&theme=dark" alt="PyTorch, React, Bootstrap, Tailwind"/>
 
 **Infrastructure & Tooling**
 
-<img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode&theme=dark" alt="Docker, Git, GitHub, Linux, VS Code"/>
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,git,github,linux,vscode&theme=dark" alt="Docker, Kubernetes, Git, GitHub, Linux, VS Code"/>
 
 </div>
 
@@ -263,19 +301,17 @@ A useful AI feature is a pipeline, not a prompt. Retrieval decides what the mode
 <!--  CURRENT FOCUS                                                 -->
 <!-- ============================================================= -->
 
-<a id="focus"></a>
-
 <div align="center">
 
-### Where My Attention Is Now
+### △ Where My Attention Is Now
 
 </div>
 
 <table width="100%">
 <tr>
-<td width="33%" align="center"><br/><b>LLM Systems</b><br/><sub>retrieval, evaluation,<br/>reasoning pipelines</sub><br/><br/></td>
-<td width="33%" align="center"><br/><b>System Design</b><br/><sub>scale, caching,<br/>data modeling</sub><br/><br/></td>
-<td width="33%" align="center"><br/><b>Cloud & Containers</b><br/><sub>Docker workflows,<br/>reproducible deploys</sub><br/><br/></td>
+<td width="33%" align="center"><br/><b>Agentic AI</b><br/><sub>RAG, tool use,<br/>evaluation loops</sub><br/><br/></td>
+<td width="33%" align="center"><br/><b>Distributed Backends</b><br/><sub>Kafka, queues,<br/>scale &amp; reliability</sub><br/><br/></td>
+<td width="33%" align="center"><br/><b>Cloud &amp; Containers</b><br/><sub>Docker, Kubernetes,<br/>reproducible deploys</sub><br/><br/></td>
 </tr>
 </table>
 
@@ -283,9 +319,9 @@ A useful AI feature is a pipeline, not a prompt. Retrieval decides what the mode
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/Currently_building-AlgoScope_&_LegalAgent-7DD3FC?style=flat-square&labelColor=0D1320)](https://github.com/Shivamchaubey14?tab=repositories)
+[![Currently building](https://img.shields.io/badge/Currently_building-DeepResearch_·_PayZap-7DD3FC?style=flat-square&labelColor=0D1320)](https://github.com/Shivamchaubey14?tab=repositories)
 &nbsp;
-[![DSA](https://img.shields.io/badge/Daily-DSA_practice-A78BFA?style=flat-square&labelColor=0D1320)](https://github.com/Shivamchaubey14)
+[![Daily DSA](https://img.shields.io/badge/Daily-DSA_practice-A78BFA?style=flat-square&labelColor=0D1320)](https://github.com/Shivamchaubey14/Solutions)
 
 </div>
 
@@ -297,21 +333,21 @@ A useful AI feature is a pipeline, not a prompt. Retrieval decides what the mode
 
 <div align="center">
 
-### The Work, Measured
+### ▲ The Work, Measured
 
 <br/>
 
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Shivamchaubey14&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=7DD3FC&icon_color=A78BFA&text_color=9FB0C7&cache_seconds=86400" height="165" alt="GitHub stats"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Shivamchaubey14&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=7DD3FC&icon_color=A78BFA&text_color=9FB0C7&cache_seconds=86400" height="165" alt="GitHub stats"/>
 &nbsp;
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Shivamchaubey14&layout=compact&theme=github_dark&langs_count=8&hide_border=true&bg_color=0D1117&title_color=7DD3FC&text_color=9FB0C7&cache_seconds=86400" height="165" alt="Top languages"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shivamchaubey14&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=7DD3FC&text_color=9FB0C7&cache_seconds=86400" height="165" alt="Top languages"/>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com/?user=Shivamchaubey14&theme=github-dark-blue&hide_border=true&background=0D1117&ring=7DD3FC&fire=A78BFA&currStreakLabel=7DD3FC" height="165" alt="Contribution streak"/>
+<img src="https://streak-stats.demolab.com/?user=Shivamchaubey14&hide_border=true&background=0D1117&ring=7DD3FC&fire=A78BFA&currStreakLabel=7DD3FC&sideLabels=9FB0C7&dates=586068&stroke=1b4d7a" height="165" alt="Contribution streak"/>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Shivamchaubey14&theme=github-compact&hide_border=true&area=true&bg_color=0D1117&color=7DD3FC&line=A78BFA&point=E6EDF6" width="92%" alt="Contribution activity graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Shivamchaubey14&theme=react-dark&hide_border=true&area=true&bg_color=0D1117&color=7DD3FC&line=A78BFA&point=E6EDF6" width="92%" alt="Contribution activity graph"/>
 
 </div>
 
@@ -321,11 +357,9 @@ A useful AI feature is a pipeline, not a prompt. Retrieval decides what the mode
 <!--  CONNECT                                                       -->
 <!-- ============================================================= -->
 
-<a id="connect"></a>
-
 <div align="center">
 
-### Let's build something that has to work.
+### ◈ Let's build something that has to work.
 
 I'm most interested in conversations about backend architecture, applied AI, and the craft of making software that lasts. If you're working on something ambitious — or hiring for a team that is — I'd like to hear about it.
 
@@ -335,7 +369,7 @@ I'm most interested in conversations about backend architecture, applied AI, and
 &nbsp;
 [![Email](https://img.shields.io/badge/Email-shivamc36@gmail.com-7DD3FC?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1320)](mailto:shivamc36@gmail.com)
 &nbsp;
-[![Open to work](https://img.shields.io/badge/Open_to-Backend_·_Full--Stack_·_AI-A78BFA?style=for-the-badge&labelColor=0D1320)](mailto:shivamc36@gmail.com)
+[![Open to work](https://img.shields.io/badge/Open_to-Backend_·_AI_·_Full--Stack-A78BFA?style=for-the-badge&labelColor=0D1320)](mailto:shivamc36@gmail.com)
 
 </div>
 
@@ -351,6 +385,6 @@ I'm most interested in conversations about backend architecture, applied AI, and
 
 <br/>
 
-<sub>Designed & built by Shivam Kumar Chaubey · Uttar Pradesh, India</sub>
+<sub>Designed &amp; built by Shivam Kumar Chaubey · Uttar Pradesh, India</sub>
 
 </div>
