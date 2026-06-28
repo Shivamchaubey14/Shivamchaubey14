@@ -66,7 +66,7 @@
 
 ### ⬡ What I Build
 
-*Four domains, one mindset — design the system, then write the code.*
+_Four domains, one mindset — design the system, then write the code._
 
 </div>
 
@@ -125,7 +125,7 @@ The fundamentals that make the rest hold up — data structures, algorithms, and
 
 ### ◆ Selected Work
 
-*A few systems I've designed and shipped.*
+_A few systems I've designed and shipped._
 
 </div>
 
@@ -231,12 +231,12 @@ Each problem ships with an **AI-generated explanation** (English & Hindi) from L
 <summary><b>More from the workshop</b></summary>
 <br/>
 
-| Project | What it is | Stack |
-|:--|:--|:--|
-| [**MilkKart**](https://github.com/Shivamchaubey14/milkkart-backend) | Dairy quick-commerce platform — async Django backend + React Native app, Blinkit-style hyper-local delivery | `Django` · `MySQL` · `Redis` · `Celery` |
-| [**Video Renting Services**](https://github.com/Shivamchaubey14/Video-Renting-Backend-Services) | Backend services for a video-rental platform — catalog, rentals, billing | `Django` · `DRF` |
-| [**Issue Tracker**](https://github.com/Shivamchaubey14/issue-tracker) | Ticketing system to track and resolve common hostel issues | `Django` |
-| [**Solutions**](https://github.com/Shivamchaubey14/Solutions) | A growing library of LeetCode solutions & hints | `Python` |
+| Project                                                                                         | What it is                                                                                                  | Stack                                   |
+| :---------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- | :-------------------------------------- |
+| [**MilkKart**](https://github.com/Shivamchaubey14/milkkart-backend)                             | Dairy quick-commerce platform — async Django backend + React Native app, Blinkit-style hyper-local delivery | `Django` · `MySQL` · `Redis` · `Celery` |
+| [**Video Renting Services**](https://github.com/Shivamchaubey14/Video-Renting-Backend-Services) | Backend services for a video-rental platform — catalog, rentals, billing                                    | `Django` · `DRF`                        |
+| [**Issue Tracker**](https://github.com/Shivamchaubey14/issue-tracker)                           | Ticketing system to track and resolve common hostel issues                                                  | `Django`                                |
+| [**Solutions**](https://github.com/Shivamchaubey14/Solutions)                                   | A growing library of LeetCode solutions & hints                                                             | `Python`                                |
 
 </details>
 </div>
@@ -251,7 +251,7 @@ Each problem ships with an **AI-generated explanation** (English & Hindi) from L
 
 ### ◇ AI as an Engineering Discipline
 
-*Not a feature bolted on — a set of moving parts that have to be designed, measured, and trusted.*
+_Not a feature bolted on — a set of moving parts that have to be designed, measured, and trusted._
 
 <br/>
 
@@ -261,7 +261,7 @@ Each problem ships with an **AI-generated explanation** (English & Hindi) from L
 
 </div>
 
-A useful AI feature is a pipeline, not a prompt. Retrieval decides what the model sees; prompt structure decides how it reasons; evaluation decides whether you can ship it. I build these pieces to fit together — grounding language models in real data, keeping outputs traceable to their sources, and treating *"is this actually correct?"* as a first-class requirement rather than an afterthought.
+A useful AI feature is a pipeline, not a prompt. Retrieval decides what the model sees; prompt structure decides how it reasons; evaluation decides whether you can ship it. I build these pieces to fit together — grounding language models in real data, keeping outputs traceable to their sources, and treating _"is this actually correct?"_ as a first-class requirement rather than an afterthought.
 
 <img src="./assets/svg/divider.svg" width="100%" alt="" />
 
@@ -273,7 +273,7 @@ A useful AI feature is a pipeline, not a prompt. Retrieval decides what the mode
 
 ### ❖ The Toolkit
 
-*Chosen for what they let me build — grouped by where they live in a system.*
+_Chosen for what they let me build — grouped by where they live in a system._
 
 <br/>
 
@@ -343,7 +343,7 @@ A useful AI feature is a pipeline, not a prompt. Retrieval decides what the mode
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com/?user=Shivamchaubey14&hide_border=true&background=0D1117&ring=7DD3FC&fire=A78BFA&currStreakLabel=7DD3FC&sideLabels=9FB0C7&dates=586068&stroke=1b4d7a" height="165" alt="Contribution streak"/>
+<img src="https://streak-stats.demolab.com/?user=Shivamchaubey14&hide_border=true&background=0D1117&ring=7DD3FC&fire=A78BFA&currStreakNum=E6EDF6&currStreakLabel=7DD3FC&sideNums=E6EDF6&sideLabels=9FB0C7&dates=8A99AD&stroke=1F2A3A" height="165" alt="Contribution streak"/>
 
 <br/><br/>
 
