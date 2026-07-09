@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="'Space Grotesk','Sora','Segoe UI',Helvetica,Arial,sans-serif" role="img" aria-label="Technology neural network: 32 skills as neurons in six cortices — languages, backend, AI and machine learning, data, frontend, and infrastructure — all wired to a central neural stack core.">
+  <defs>
+    <radialGradient id="nbg" cx="50%" cy="50%" r="72%">
+      <stop offset="0%" stop-color="#0A1128"/>
+      <stop offset="50%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </radialGradient>
+    <radialGradient id="ncore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.30"/>
+      <stop offset="60%" stop-color="#3B82F6" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="ng" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family:'JetBrains Mono','Fira Code',Consolas,monospace; }
+    .pill  { fill:#0B0F19; fill-opacity:.92; stroke-width:1.2; }
+    .plab  { font-family:'JetBrains Mono','Fira Code',Consolas,monospace; font-size:12px; fill:#E6F1FF; text-anchor:middle; }
+    .hub   { font-family:'JetBrains Mono','Fira Code',Consolas,monospace; font-size:11px; letter-spacing:3px; }
+    .wire  { stroke-opacity:.28; stroke-width:1; fill:none; }
+    .trunk { stroke-opacity:.4; stroke-width:1.2; fill:none; }
+    .xlink { stroke-opacity:.14; stroke-width:1; fill:none; stroke-dasharray:3 6; }
+    .rotc { transform-box: fill-box; transform-origin: center; animation: rot 50s linear infinite; }
+    @keyframes rot { to { transform: rotate(360deg); } }
+    .tw1,.tw2,.tw3 { animation: tw 4s ease-in-out infinite; }
+    .tw2 { animation-duration:5.4s; animation-delay:1.2s; }
+    .tw3 { animation-duration:6.6s; animation-delay:2.6s; }
+    @keyframes tw { 0%,100% { opacity:.1; } 50% { opacity:.7; } }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .pulse { display:none; }
+    }
+  </style>
+
+  <rect width="1200" height="800" fill="url(#nbg)"/>
+
+  <!-- ambient particles -->
+  <g fill="#67E8F9">
+    <circle class="tw1" cx="90" cy="60" r="1.3"/><circle class="tw2" cx="280" cy="740" r="1.2"/>
+    <circle class="tw3" cx="530" cy="120" r="1.4"/><circle class="tw1" cx="920" cy="700" r="1.3"/>
+    <circle class="tw2" cx="1140" cy="90" r="1.2"/><circle class="tw3" cx="60" cy="420" r="1.4"/>
+    <circle class="tw1" cx="1150" cy="470" r="1.2"/><circle class="tw2" cx="640" cy="770" r="1.3"/>
+  </g>
+  <g fill="#A78BFA">
+    <circle class="tw3" cx="200" cy="90" r="1.2"/><circle class="tw1" cx="1000" cy="60" r="1.3"/>
+    <circle class="tw2" cx="480" cy="720" r="1.2"/><circle class="tw3" cx="740" cy="90" r="1.3"/>
+  </g>
+
+  <!-- HUD -->
+  <g class="mono" font-size="10" letter-spacing="2">
+    <text x="30" y="30" fill="#67E8F9">NEURAL STACK MAP v2.1</text>
+    <text x="1170" y="30" text-anchor="end" fill="#64748B">32 NEURONS &#183; 6 CORTICES &#183; ALL SYNAPSES FIRING</text>
+  </g>
+
+  <!-- ══════════ TRUNK SYNAPSES : core → cortex hubs ══════════ -->
+  <path id="t1" class="trunk" stroke="#22D3EE" d="M600,400 L600,165"/>
+  <path id="t2" class="trunk" stroke="#A78BFA" d="M600,400 L840,270"/>
+  <path id="t3" class="trunk" stroke="#818CF8" d="M600,400 L840,530"/>
+  <path id="t4" class="trunk" stroke="#E2E8F0" d="M600,400 L600,635"/>
+  <path id="t5" class="trunk" stroke="#67E8F9" d="M600,400 L360,530"/>
+  <path id="t6" class="trunk" stroke="#60A5FA" d="M600,400 L360,270"/>
+
+  <!-- cross-cortex links -->
+  <g stroke="#7DD3FC">
+    <path class="xlink" d="M360,270 C480,190 720,190 840,270"/>
+    <path class="xlink" d="M360,530 C480,610 720,610 840,530"/>
+    <path class="xlink" d="M360,270 L360,530"/>
+    <path class="xlink" d="M840,270 L840,530"/>
+  </g>
+
+  <!-- traveling knowledge pulses -->
+  <g class="pulse" filter="url(#ng)">
+    <circle r="2.8" fill="#22D3EE"><animateMotion dur="2.8s" repeatCount="indefinite"><mpath href="#t1"/></animateMotion></circle>
+    <circle r="2.8" fill="#A78BFA"><animateMotion dur="3.4s" begin=".4s" repeatCount="indefinite"><mpath href="#t2"/></animateMotion></circle>
+    <circle r="2.8" fill="#818CF8"><animateMotion dur="3.1s" begin=".9s" repeatCount="indefinite"><mpath href="#t3"/></animateMotion></circle>
+    <circle r="2.8" fill="#E2E8F0"><animateMotion dur="2.6s" begin="1.3s" repeatCount="indefinite"><mpath href="#t4"/></animateMotion></circle>
+    <circle r="2.8" fill="#67E8F9"><animateMotion dur="3.6s" begin="1.8s" repeatCount="indefinite"><mpath href="#t5"/></animateMotion></circle>
+    <circle r="2.8" fill="#60A5FA"><animateMotion dur="3.0s" begin="2.2s" repeatCount="indefinite"><mpath href="#t6"/></animateMotion></circle>
+    <!-- return pulses -->
+    <circle r="2" fill="#E6F1FF" opacity=".8"><animateMotion dur="4.4s" begin="1s" keyPoints="1;0" keyTimes="0;1" repeatCount="indefinite"><mpath href="#t2"/></animateMotion></circle>
+    <circle r="2" fill="#E6F1FF" opacity=".8"><animateMotion dur="4.8s" begin="2.5s" keyPoints="1;0" keyTimes="0;1" repeatCount="indefinite"><mpath href="#t5"/></animateMotion></circle>
+  </g>
+
+  <!-- ══════════ CORTEX 1 · LANGUAGES (top, cyan) ══════════ -->
+  <g stroke="#22D3EE">
+    <path class="wire" d="M600,165 L400,100"/><path class="wire" d="M600,165 L510,70"/>
+    <path class="wire" d="M600,165 L622,60"/><path class="wire" d="M600,165 L725,75"/>
+    <path class="wire" d="M600,165 L815,105"/>
+  </g>
+  <circle cx="600" cy="165" r="7" fill="#0B0F19" stroke="#22D3EE" stroke-width="2" filter="url(#ng)"/>
+  <text class="hub" x="600" y="145" text-anchor="middle" fill="#67E8F9">LANGUAGE CORTEX</text>
+  <g>
+    <rect class="pill" x="362" y="85" width="76" height="30" rx="15" stroke="#22D3EE"/><circle cx="378" cy="100" r="3" fill="#22D3EE"/><text class="plab" x="405" y="104">Python</text>
+    <rect class="pill" x="462" y="55" width="96" height="30" rx="15" stroke="#22D3EE"/><text class="plab" x="510" y="74">JavaScript</text>
+    <rect class="pill" x="574" y="45" width="96" height="30" rx="15" stroke="#22D3EE"/><text class="plab" x="622" y="64">TypeScript</text>
+    <rect class="pill" x="694" y="60" width="62" height="30" rx="15" stroke="#22D3EE"/><circle cx="710" cy="75" r="3" fill="#22D3EE"/><text class="plab" x="730" y="79">HTML</text>
+    <rect class="pill" x="788" y="90" width="54" height="30" rx="15" stroke="#22D3EE"/><circle cx="804" cy="105" r="3" fill="#22D3EE"/><text class="plab" x="827" y="109">CSS</text>
+  </g>
+
+  <!-- ══════════ CORTEX 2 · AI / ML (top-right, violet) ══════════ -->
+  <g stroke="#A78BFA">
+    <path class="wire" d="M840,270 L1050,165"/><path class="wire" d="M840,270 L1080,220"/>
+    <path class="wire" d="M840,270 L1095,275"/><path class="wire" d="M840,270 L1095,330"/>
+    <path class="wire" d="M840,270 L1080,385"/><path class="wire" d="M840,270 L1050,440"/>
+  </g>
+  <circle cx="840" cy="270" r="7" fill="#0B0F19" stroke="#A78BFA" stroke-width="2" filter="url(#ng)"/>
+  <text class="hub" x="862" y="258" fill="#C4B5FD">AI CORTEX</text>
+  <g>
+    <rect class="pill" x="1003" y="150" width="94" height="30" rx="15" stroke="#A78BFA"/><circle cx="1019" cy="165" r="3" fill="#A78BFA"/><text class="plab" x="1055" y="169">LangGraph</text>
+    <rect class="pill" x="1036" y="205" width="88" height="30" rx="15" stroke="#A78BFA"/><circle cx="1052" cy="220" r="3" fill="#A78BFA"/><text class="plab" x="1092" y="224">AI Agents</text>
+    <rect class="pill" x="1030" y="260" width="130" height="30" rx="15" stroke="#A78BFA"/><text class="plab" x="1095" y="279">LLM Engineering</text>
+    <rect class="pill" x="1025" y="315" width="140" height="30" rx="15" stroke="#A78BFA"/><text class="plab" x="1095" y="334">Machine Learning</text>
+    <rect class="pill" x="1044" y="370" width="72" height="30" rx="15" stroke="#A78BFA"/><text class="plab" x="1080" y="389">OpenAI</text>
+    <rect class="pill" x="998" y="425" width="104" height="30" rx="15" stroke="#A78BFA"/><text class="plab" x="1050" y="444">Scikit-Learn</text>
+  </g>
+
+  <!-- ══════════ CORTEX 3 · FRONTEND (bottom-right, indigo) ══════════ -->
+  <g stroke="#818CF8">
+    <path class="wire" d="M840,530 L1050,495"/><path class="wire" d="M840,530 L1080,550"/>
+    <path class="wire" d="M840,530 L1095,605"/><path class="wire" d="M840,530 L1080,660"/>
+    <path class="wire" d="M840,530 L1050,715"/><path class="wire" d="M840,530 L1005,760"/>
+  </g>
+  <circle cx="840" cy="530" r="7" fill="#0B0F19" stroke="#818CF8" stroke-width="2" filter="url(#ng)"/>
+  <text class="hub" x="862" y="522" fill="#A5B4FC">INTERFACE CORTEX</text>
+  <g>
+    <rect class="pill" x="1018" y="480" width="64" height="30" rx="15" stroke="#818CF8"/><circle cx="1034" cy="495" r="3" fill="#818CF8"/><text class="plab" x="1055" y="499">React</text>
+    <rect class="pill" x="1043" y="535" width="74" height="30" rx="15" stroke="#818CF8"/><circle cx="1059" cy="550" r="3" fill="#818CF8"/><text class="plab" x="1085" y="554">Next.js</text>
+    <rect class="pill" x="1040" y="590" width="110" height="30" rx="15" stroke="#818CF8"/><text class="plab" x="1095" y="609">Tailwind CSS</text>
+    <rect class="pill" x="1035" y="645" width="90" height="30" rx="15" stroke="#818CF8"/><text class="plab" x="1080" y="664">Bootstrap</text>
+    <rect class="pill" x="1015" y="700" width="70" height="30" rx="15" stroke="#818CF8"/><text class="plab" x="1050" y="719">Flutter</text>
+    <rect class="pill" x="947" y="745" width="116" height="30" rx="15" stroke="#818CF8"/><text class="plab" x="1005" y="764">React Native</text>
+  </g>
+
+  <!-- ══════════ CORTEX 4 · INFRA (bottom, silver) ══════════ -->
+  <g stroke="#E2E8F0">
+    <path class="wire" d="M600,635 L480,730"/><path class="wire" d="M600,635 L600,750"/>
+    <path class="wire" d="M600,635 L720,730"/>
+  </g>
+  <circle cx="600" cy="635" r="7" fill="#0B0F19" stroke="#E2E8F0" stroke-width="2" filter="url(#ng)"/>
+  <text class="hub" x="600" y="668" text-anchor="middle" fill="#CBD5E1">INFRA CORTEX</text>
+  <g>
+    <rect class="pill" x="444" y="715" width="72" height="30" rx="15" stroke="#E2E8F0"/><circle cx="460" cy="730" r="3" fill="#E2E8F0"/><text class="plab" x="485" y="734">Docker</text>
+    <rect class="pill" x="574" y="735" width="52" height="30" rx="15" stroke="#E2E8F0"/><circle cx="590" cy="750" r="3" fill="#E2E8F0"/><text class="plab" x="606" y="754">Git</text>
+    <rect class="pill" x="687" y="715" width="66" height="30" rx="15" stroke="#E2E8F0"/><circle cx="703" cy="730" r="3" fill="#E2E8F0"/><text class="plab" x="725" y="734">Linux</text>
+  </g>
+
+  <!-- ══════════ CORTEX 5 · DATA (bottom-left, ice) ══════════ -->
+  <g stroke="#67E8F9">
+    <path class="wire" d="M360,530 L150,495"/><path class="wire" d="M360,530 L115,550"/>
+    <path class="wire" d="M360,530 L105,605"/><path class="wire" d="M360,530 L120,660"/>
+    <path class="wire" d="M360,530 L150,715"/><path class="wire" d="M360,530 L195,760"/>
+  </g>
+  <circle cx="360" cy="530" r="7" fill="#0B0F19" stroke="#67E8F9" stroke-width="2" filter="url(#ng)"/>
+  <text class="hub" x="338" y="522" text-anchor="end" fill="#A5F3FC">MEMORY CORTEX</text>
+  <g>
+    <rect class="pill" x="100" y="480" width="100" height="30" rx="15" stroke="#67E8F9"/><text class="plab" x="150" y="499">PostgreSQL</text>
+    <rect class="pill" x="80" y="535" width="70" height="30" rx="15" stroke="#67E8F9"/><circle cx="96" cy="550" r="3" fill="#67E8F9"/><text class="plab" x="120" y="554">MySQL</text>
+    <rect class="pill" x="73" y="590" width="64" height="30" rx="15" stroke="#67E8F9"/><circle cx="89" cy="605" r="3" fill="#67E8F9"/><text class="plab" x="110" y="609">Redis</text>
+    <rect class="pill" x="84" y="645" width="72" height="30" rx="15" stroke="#67E8F9"/><circle cx="100" cy="660" r="3" fill="#67E8F9"/><text class="plab" x="125" y="664">Prisma</text>
+    <rect class="pill" x="112" y="700" width="76" height="30" rx="15" stroke="#67E8F9"/><circle cx="128" cy="715" r="3" fill="#67E8F9"/><text class="plab" x="155" y="719">Pandas</text>
+    <rect class="pill" x="159" y="745" width="72" height="30" rx="15" stroke="#67E8F9"/><circle cx="175" cy="760" r="3" fill="#67E8F9"/><text class="plab" x="200" y="764">NumPy</text>
+  </g>
+
+  <!-- ══════════ CORTEX 6 · BACKEND (top-left, blue) ══════════ -->
+  <g stroke="#60A5FA">
+    <path class="wire" d="M360,270 L150,165"/><path class="wire" d="M360,270 L120,220"/>
+    <path class="wire" d="M360,270 L105,275"/><path class="wire" d="M360,270 L105,330"/>
+    <path class="wire" d="M360,270 L120,385"/><path class="wire" d="M360,270 L150,440"/>
+  </g>
+  <circle cx="360" cy="270" r="7" fill="#0B0F19" stroke="#60A5FA" stroke-width="2" filter="url(#ng)"/>
+  <text class="hub" x="338" y="258" text-anchor="end" fill="#93C5FD">LOGIC CORTEX</text>
+  <g>
+    <rect class="pill" x="112" y="150" width="76" height="30" rx="15" stroke="#60A5FA"/><circle cx="128" cy="165" r="3" fill="#60A5FA"/><text class="plab" x="155" y="169">Django</text>
+    <rect class="pill" x="80" y="205" width="80" height="30" rx="15" stroke="#60A5FA"/><circle cx="96" cy="220" r="3" fill="#60A5FA"/><text class="plab" x="125" y="224">FastAPI</text>
+    <rect class="pill" x="65" y="260" width="80" height="30" rx="15" stroke="#60A5FA"/><circle cx="81" cy="275" r="3" fill="#60A5FA"/><text class="plab" x="110" y="279">Node.js</text>
+    <rect class="pill" x="65" y="315" width="80" height="30" rx="15" stroke="#60A5FA"/><circle cx="81" cy="330" r="3" fill="#60A5FA"/><text class="plab" x="110" y="334">Express</text>
+    <rect class="pill" x="74" y="370" width="92" height="30" rx="15" stroke="#60A5FA"/><circle cx="90" cy="385" r="3" fill="#60A5FA"/><text class="plab" x="125" y="389">REST APIs</text>
+    <rect class="pill" x="114" y="425" width="72" height="30" rx="15" stroke="#60A5FA"/><circle cx="130" cy="440" r="3" fill="#60A5FA"/><text class="plab" x="155" y="444">Celery</text>
+  </g>
+
+  <!-- ══════════ CENTRAL CORE ══════════ -->
+  <circle cx="600" cy="400" r="150" fill="url(#ncore)"/>
+  <g fill="none" stroke="#22D3EE">
+    <circle cx="600" cy="400" r="70" stroke-opacity=".5">
+      <animate attributeName="r" values="70;120" dur="3.6s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".45;0" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g class="rotc">
+    <circle cx="600" cy="400" r="92" fill="none" stroke="#8B5CF6" stroke-opacity=".4" stroke-dasharray="3 9"/>
+  </g>
+  <circle cx="600" cy="400" r="72" fill="#0B0F19" fill-opacity=".9" stroke="#38BDF8" stroke-opacity=".6" stroke-width="1.2" filter="url(#ng)"/>
+  <g text-anchor="middle">
+    <text x="600" y="388" font-size="17" font-weight="700" letter-spacing="3" fill="#E6F1FF" filter="url(#ng)">NEURAL</text>
+    <text x="600" y="408" font-size="17" font-weight="700" letter-spacing="3" fill="#E6F1FF" filter="url(#ng)">STACK</text>
+    <text x="600" y="430" class="mono" font-size="9" letter-spacing="2" fill="#67E8F9">32 ACTIVE NEURONS</text>
+  </g>
+</svg>

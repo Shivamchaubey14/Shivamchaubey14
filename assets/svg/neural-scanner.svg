@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 80" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" role="img" aria-label="AI activity scanner analyzing repository telemetry.">
+  <defs>
+    <linearGradient id="laser" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sbg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <filter id="sg" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .laserline { animation: sweep 5s ease-in-out infinite; }
+    @keyframes sweep { 0%,100% { transform: translateX(0); } 50% { transform: translateX(1000px); } }
+    .sdot { animation: sd 1.6s ease-in-out infinite; }
+    @keyframes sd { 0%,100% { opacity:1; } 50% { opacity:.2; } }
+    .tick { animation: tk 2.4s steps(1) infinite; }
+    @keyframes tk { 0% { opacity:.3; } 33% { opacity:1; } 66% { opacity:.6; } }
+    @media (prefers-reduced-motion: reduce) { * { animation:none !important; } }
+  </style>
+
+  <rect x="20" y="10" width="1160" height="60" rx="12" fill="url(#sbg)" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- corner brackets -->
+  <g fill="none" stroke="#38BDF8" stroke-width="1.4" stroke-opacity=".8">
+    <path d="M32,22 h16 M32,22 v14"/><path d="M1168,22 h-16 M1168,22 v14"/>
+    <path d="M32,58 h16 M32,58 v-14"/><path d="M1168,58 h-16 M1168,58 v-14"/>
+  </g>
+
+  <!-- sweeping laser -->
+  <g class="laserline">
+    <rect x="60" y="14" width="120" height="52" fill="url(#laser)" opacity=".18"/>
+    <rect x="118" y="14" width="2" height="52" fill="#67E8F9" filter="url(#sg)"/>
+  </g>
+
+  <circle class="sdot" cx="58" cy="40" r="4" fill="#34D399" filter="url(#sg)"/>
+  <text x="74" y="36" font-size="12" letter-spacing="3" fill="#E6F1FF">AI ACTIVITY SCANNER</text>
+  <text x="74" y="52" font-size="10" letter-spacing="1" fill="#64748B">analyzing repository telemetry &#183; commits &#183; languages &#183; contribution energy</text>
+
+  <g text-anchor="end" font-size="10" letter-spacing="2">
+    <text class="tick" x="1140" y="36" fill="#67E8F9">SCAN &#183; ACTIVE</text>
+    <text x="1140" y="52" fill="#475569">SIGNAL INTEGRITY 100%</text>
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" role="img" aria-label="">
+  <defs>
+    <linearGradient id="dL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity=".6"/>
+    </linearGradient>
+    <linearGradient id="dR" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity=".6"/>
+    </linearGradient>
+    <filter id="dg" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .dp { transform-box: fill-box; transform-origin: center; animation: dp 3s ease-in-out infinite; }
+    @keyframes dp { 0%,100% { transform: scale(1); } 50% { transform: scale(1.35); } }
+    @media (prefers-reduced-motion: reduce) { * { animation:none !important; } .pulse { display:none; } }
+  </style>
+
+  <!-- dendrite branches, left -->
+  <g fill="none" stroke-opacity=".85">
+    <path id="dl1" d="M90,45 C300,45 420,45 560,45" stroke="url(#dL)" stroke-width="1"/>
+    <path d="M240,45 C280,30 320,26 370,22" stroke="url(#dL)" stroke-width=".8" stroke-opacity=".4"/>
+    <path d="M240,45 C280,60 320,64 370,68" stroke="url(#dL)" stroke-width=".8" stroke-opacity=".4"/>
+    <path d="M420,45 C450,34 470,32 505,28" stroke="url(#dL)" stroke-width=".8" stroke-opacity=".4"/>
+  </g>
+  <!-- dendrite branches, right -->
+  <g fill="none" stroke-opacity=".85">
+    <path id="dr1" d="M1110,45 C900,45 780,45 640,45" stroke="url(#dR)" stroke-width="1"/>
+    <path d="M960,45 C920,30 880,26 830,22" stroke="url(#dR)" stroke-width=".8" stroke-opacity=".4"/>
+    <path d="M960,45 C920,60 880,64 830,68" stroke="url(#dR)" stroke-width=".8" stroke-opacity=".4"/>
+    <path d="M780,45 C750,56 730,58 695,62" stroke="url(#dR)" stroke-width=".8" stroke-opacity=".4"/>
+  </g>
+
+  <!-- leaf synapses -->
+  <g filter="url(#dg)">
+    <circle cx="370" cy="22" r="2" fill="#22D3EE" opacity=".7"/>
+    <circle cx="370" cy="68" r="2" fill="#22D3EE" opacity=".7"/>
+    <circle cx="505" cy="28" r="1.6" fill="#67E8F9" opacity=".6"/>
+    <circle cx="830" cy="22" r="2" fill="#A78BFA" opacity=".7"/>
+    <circle cx="830" cy="68" r="2" fill="#A78BFA" opacity=".7"/>
+    <circle cx="695" cy="62" r="1.6" fill="#C4B5FD" opacity=".6"/>
+    <circle cx="90" cy="45" r="2" fill="#22D3EE" opacity=".5"/>
+    <circle cx="1110" cy="45" r="2" fill="#A78BFA" opacity=".5"/>
+  </g>
+
+  <!-- central synapse node -->
+  <circle class="dp" cx="600" cy="45" r="7" fill="none" stroke="#7DD3FC" stroke-opacity=".5" stroke-width="1"/>
+  <circle cx="600" cy="45" r="3" fill="#E6F1FF" filter="url(#dg)"/>
+
+  <!-- traveling impulses -->
+  <g class="pulse" filter="url(#dg)">
+    <circle r="2" fill="#67E8F9"><animateMotion dur="3.2s" repeatCount="indefinite"><mpath href="#dl1"/></animateMotion></circle>
+    <circle r="2" fill="#C4B5FD"><animateMotion dur="3.2s" begin="1.6s" repeatCount="indefinite"><mpath href="#dr1"/></animateMotion></circle>
+  </g>
+</svg>

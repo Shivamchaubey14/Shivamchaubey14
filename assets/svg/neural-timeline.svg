@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" font-family="'Space Grotesk','Sora','Segoe UI',Helvetica,Arial,sans-serif" role="img" aria-label="Evolution pathway: Full-Stack Developer, then Backend Engineer, then AI Engineer (current stage), evolving toward Agentic AI Developer and LLM Specialist.">
+  <defs>
+    <linearGradient id="fiber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="45%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <radialGradient id="tbg" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#0A1128"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </radialGradient>
+    <filter id="tg" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family:'JetBrains Mono','Fira Code',Consolas,monospace; }
+    .cur { transform-box: fill-box; transform-origin: center; animation: cp 2.4s ease-in-out infinite; }
+    @keyframes cp { 0%,100% { transform: scale(1); opacity:.9; } 50% { transform: scale(1.25); opacity:.4; } }
+    .tw { animation: tw 4.5s ease-in-out infinite; }
+    @keyframes tw { 0%,100% { opacity:.15; } 50% { opacity:.7; } }
+    @media (prefers-reduced-motion: reduce) { * { animation:none !important; } .pulse { display:none; } }
+  </style>
+
+  <rect width="1200" height="300" fill="url(#tbg)"/>
+
+  <g class="mono" font-size="10" letter-spacing="2">
+    <text x="30" y="28" fill="#67E8F9">EVOLUTION PATHWAY</text>
+    <text x="1170" y="28" text-anchor="end" fill="#64748B">TRAJECTORY &#183; FULL-STACK &#8594; LLM SPECIALIST</text>
+  </g>
+
+  <!-- fiber-optic spine -->
+  <path id="spine" d="M60,160 C240,140 360,180 600,160 C840,140 960,180 1140,160" fill="none" stroke="url(#fiber)" stroke-width="2" stroke-opacity=".65" filter="url(#tg)"/>
+  <path d="M60,160 C240,140 360,180 600,160 C840,140 960,180 1140,160" fill="none" stroke="#E6F1FF" stroke-width="6" stroke-opacity=".04"/>
+
+  <!-- traveling impulses -->
+  <g class="pulse" filter="url(#tg)">
+    <circle r="3.4" fill="#E6F1FF"><animateMotion dur="7s" repeatCount="indefinite"><mpath href="#spine"/></animateMotion></circle>
+    <circle r="2.2" fill="#67E8F9"><animateMotion dur="7s" begin="2.3s" repeatCount="indefinite"><mpath href="#spine"/></animateMotion></circle>
+    <circle r="2.2" fill="#C4B5FD"><animateMotion dur="7s" begin="4.6s" repeatCount="indefinite"><mpath href="#spine"/></animateMotion></circle>
+  </g>
+
+  <!-- dendrites -->
+  <g stroke-opacity=".22" fill="none">
+    <path d="M150,155 C160,120 140,100 155,75" stroke="#22D3EE"/>
+    <path d="M390,168 C400,205 380,225 395,245" stroke="#38BDF8"/>
+    <path d="M600,160 C610,120 590,100 605,80" stroke="#60A5FA"/>
+    <path d="M840,153 C850,195 830,215 845,240" stroke="#818CF8"/>
+    <path d="M1090,159 C1100,120 1080,100 1095,80" stroke="#A78BFA"/>
+  </g>
+
+  <!-- CHECKPOINT 1 · Full-Stack Developer -->
+  <circle cx="150" cy="157" r="9" fill="#0B0F19" stroke="#22D3EE" stroke-width="2" filter="url(#tg)"/>
+  <circle cx="150" cy="157" r="3" fill="#22D3EE"/>
+  <g text-anchor="middle">
+    <text x="150" y="205" font-size="14" font-weight="700" fill="#E6F1FF">FULL-STACK</text>
+    <text x="150" y="222" font-size="14" font-weight="700" fill="#E6F1FF">DEVELOPER</text>
+    <text x="150" y="242" class="mono" font-size="9" letter-spacing="1" fill="#7DD3FC">Django &#183; React &#183; SQL</text>
+    <text x="150" y="130" class="mono" font-size="9" letter-spacing="2" fill="#475569">CHECKPOINT 01</text>
+  </g>
+
+  <!-- CHECKPOINT 2 · Backend Engineer -->
+  <circle cx="390" cy="166" r="9" fill="#0B0F19" stroke="#38BDF8" stroke-width="2" filter="url(#tg)"/>
+  <circle cx="390" cy="166" r="3" fill="#38BDF8"/>
+  <g text-anchor="middle">
+    <text x="390" y="112" font-size="14" font-weight="700" fill="#E6F1FF">BACKEND</text>
+    <text x="390" y="129" font-size="14" font-weight="700" fill="#E6F1FF">ENGINEER</text>
+    <text x="390" y="92" class="mono" font-size="9" letter-spacing="1" fill="#7DD3FC">APIs &#183; Queues &#183; Scale</text>
+    <text x="390" y="272" class="mono" font-size="9" letter-spacing="2" fill="#475569">CHECKPOINT 02</text>
+  </g>
+
+  <!-- CHECKPOINT 3 · AI Engineer (CURRENT) -->
+  <circle class="cur" cx="600" cy="160" r="17" fill="none" stroke="#60A5FA" stroke-width="1.5"/>
+  <circle cx="600" cy="160" r="10" fill="#0B0F19" stroke="#60A5FA" stroke-width="2.5" filter="url(#tg)"/>
+  <circle cx="600" cy="160" r="4" fill="#93C5FD">
+    <animate attributeName="opacity" values="1;.4;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <g text-anchor="middle">
+    <text x="600" y="212" font-size="15" font-weight="700" fill="#E6F1FF" filter="url(#tg)">AI ENGINEER</text>
+    <text x="600" y="232" class="mono" font-size="9" letter-spacing="1" fill="#93C5FD">RAG &#183; Agents &#183; Evals &#183; Kafka</text>
+    <text x="600" y="254" class="mono" font-size="10" letter-spacing="3" fill="#34D399" filter="url(#tg)">&#9654; CURRENT STAGE</text>
+    <text x="600" y="130" class="mono" font-size="9" letter-spacing="2" fill="#475569">CHECKPOINT 03</text>
+  </g>
+
+  <!-- CHECKPOINT 4 · Agentic AI Developer -->
+  <circle cx="840" cy="151" r="9" fill="#0B0F19" stroke="#818CF8" stroke-width="2" stroke-dasharray="3 3" filter="url(#tg)"/>
+  <circle cx="840" cy="151" r="3" fill="#818CF8" opacity=".7"/>
+  <g text-anchor="middle">
+    <text x="840" y="99" font-size="14" font-weight="700" fill="#CBD5E1">AGENTIC AI</text>
+    <text x="840" y="116" font-size="14" font-weight="700" fill="#CBD5E1">DEVELOPER</text>
+    <text x="840" y="79" class="mono" font-size="9" letter-spacing="1" fill="#A5B4FC">LangGraph &#183; Tool Use &#183; Orchestration</text>
+    <text x="840" y="266" class="mono" font-size="9" letter-spacing="2" fill="#475569">CHECKPOINT 04</text>
+  </g>
+
+  <!-- CHECKPOINT 5 · LLM Specialist -->
+  <circle cx="1090" cy="158" r="9" fill="#0B0F19" stroke="#A78BFA" stroke-width="2" stroke-dasharray="3 3" filter="url(#tg)"/>
+  <circle cx="1090" cy="158" r="3" fill="#A78BFA" opacity=".7"/>
+  <g text-anchor="middle">
+    <text x="1090" y="206" font-size="14" font-weight="700" fill="#CBD5E1">LLM</text>
+    <text x="1090" y="223" font-size="14" font-weight="700" fill="#CBD5E1">SPECIALIST</text>
+    <text x="1078" y="243" class="mono" font-size="9" letter-spacing="1" fill="#C4B5FD">Fine-tuning &#183; Inference &#183; Research</text>
+    <text x="1090" y="130" class="mono" font-size="9" letter-spacing="2" fill="#475569">CHECKPOINT 05</text>
+  </g>
+
+  <!-- ambient -->
+  <g fill="#67E8F9">
+    <circle class="tw" cx="80" cy="60" r="1.3"/><circle class="tw" cx="500" cy="45" r="1.2" style="animation-delay:1.4s"/>
+    <circle class="tw" cx="720" cy="270" r="1.3" style="animation-delay:2.2s"/><circle class="tw" cx="1150" cy="250" r="1.2" style="animation-delay:.8s"/>
+  </g>
+</svg>

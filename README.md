@@ -1,138 +1,164 @@
 <!--
-  ════════════════════════════════════════════════════════════════════
-   Shivam Kumar Chaubey — GitHub Profile README
-   Palette: deep navy #0D1320 · ice blue #7DD3FC · violet #A78BFA · slate #9FB0C7
-   Decorative art lives in ./assets/svg  ·  project shots in ./assets/img
-  ════════════════════════════════════════════════════════════════════
+  ╔══════════════════════════════════════════════════════════════════╗
+  ║  SHIVAM KUMAR CHAUBEY · NEURAL-OS v5.0                            ║
+  ║  A GitHub profile designed as a living artificial brain:          ║
+  ║   · repositories  = memories                                      ║
+  ║   · commits       = electrical impulses                           ║
+  ║   · technologies  = neurons                                       ║
+  ║   · projects      = cognitive functions                           ║
+  ║  Palette · void #050505 · graphite #0D1117 · midnight #0A1128     ║
+  ║           · cyan #22D3EE · blue #60A5FA · violet #A78BFA          ║
+  ║  All animated artwork is hand-built SVG (SMIL + CSS) in           ║
+  ║  ./assets/svg — no rasters, honors prefers-reduced-motion,       ║
+  ║  auto-switches dark/light via <picture>.                          ║
+  ╚══════════════════════════════════════════════════════════════════╝
 -->
 
-<!-- ============================================================= -->
-<!--  HERO                                                         -->
-<!-- ============================================================= -->
+<a name="top"></a>
 
 <div align="center">
 
-<img src="./assets/svg/hero.svg" alt="Shivam Kumar Chaubey — Designing intelligent software systems" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/svg/neural-hero-light.svg">
+  <img src="./assets/svg/neural-hero.svg" width="100%" alt="Shivam Kumar Chaubey — central intelligence of a living neural network. Full-stack · backend · applied AI engineer."/>
+</picture>
 
-<br/><br/>
-
-<a href="#-selected-work"><img src="https://img.shields.io/badge/Selected_Work-7DD3FC?style=for-the-badge&labelColor=0D1320&color=0D1320" alt="Selected Work"/></a>
-&nbsp;
-<a href="#-ai-as-an-engineering-discipline"><img src="https://img.shields.io/badge/AI_Systems-A78BFA?style=for-the-badge&labelColor=0D1320&color=0D1320" alt="AI Systems"/></a>
-&nbsp;
-<a href="#-lets-build-something-that-has-to-work"><img src="https://img.shields.io/badge/Connect-E6EDF6?style=for-the-badge&labelColor=0D1320&color=0D1320" alt="Connect"/></a>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=2600&pause=900&color=22D3EE&center=true&vCenter=true&width=820&height=42&lines=%3E+initializing+neural+interface+.....................+OK;%3E+mounting+repositories+as+long-term+memory+........+OK;%3E+loading+32+technology+neurons+....................+OK;%3E+agentic+reasoning+loop+.......................+ONLINE;%3E+welcome%2C+visitor+—+you+are+now+inside+the+network" alt="Boot sequence: initializing neural interface, mounting repositories as memory, loading technology neurons, agentic reasoning loop online."/>
 
 <br/>
 
-<sub>
-<a href="#systems-before-syntax">Philosophy</a> &nbsp;·&nbsp;
-<a href="#-what-i-build">Expertise</a> &nbsp;·&nbsp;
-<a href="#-selected-work">Projects</a> &nbsp;·&nbsp;
-<a href="#-ai-as-an-engineering-discipline">AI Systems</a> &nbsp;·&nbsp;
-<a href="#-the-toolkit">Stack</a> &nbsp;·&nbsp;
-<a href="#-where-my-attention-is-now">Focus</a> &nbsp;·&nbsp;
-<a href="#-lets-build-something-that-has-to-work">Connect</a>
-</sub>
+<!-- ─── floating glass-capsule navigation ─── -->
+<a href="#stack"><img src="https://img.shields.io/badge/⌬_NEURAL_STACK-0D1117?style=for-the-badge&labelColor=0D1117&color=164E63" alt="Neural Stack"/></a>&nbsp;<a href="#evolution"><img src="https://img.shields.io/badge/◈_EVOLUTION-0D1117?style=for-the-badge&labelColor=0D1117&color=1E3A8A" alt="Evolution"/></a>&nbsp;<a href="#modules"><img src="https://img.shields.io/badge/⬡_AI_MODULES-0D1117?style=for-the-badge&labelColor=0D1117&color=4C1D95" alt="AI Modules"/></a>&nbsp;<a href="#command"><img src="https://img.shields.io/badge/◉_COMMAND_CENTER-0D1117?style=for-the-badge&labelColor=0D1117&color=164E63" alt="Command Center"/></a>&nbsp;<a href="#telemetry"><img src="https://img.shields.io/badge/▲_TELEMETRY-0D1117?style=for-the-badge&labelColor=0D1117&color=1E3A8A" alt="Telemetry"/></a>&nbsp;<a href="#uplink"><img src="https://img.shields.io/badge/◇_UPLINK-0D1117?style=for-the-badge&labelColor=0D1117&color=4C1D95" alt="Uplink"/></a>
 
 </div>
 
-<img src="./assets/svg/divider.svg" width="100%" alt="" />
+<img src="./assets/svg/neural-divider.svg" width="100%" alt=""/>
 
-<!-- ============================================================= -->
-<!--  PHILOSOPHY                                                    -->
-<!-- ============================================================= -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--  KERNEL · IDENTITY                                              -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<a name="kernel"></a>
 
 <div align="center">
 
-### Systems Before Syntax
+### `◈ KERNEL` — The Central Intelligence
 
 </div>
 
-> Software is not a stack of libraries — it is a set of decisions that have to keep working under pressure.
->
-> I build backend systems that stay predictable as they grow, and I treat artificial intelligence as an engineering discipline: retrieval, evaluation, and reliability — not a magic box. I care about the parts of a system most people never see: the API contract that doesn't break, the queue that absorbs a spike, the agent loop that stays traceable back to its sources.
->
-> I think like a chess player — plan the structure, control the center, and only then commit to the move.
+```text
+┌─ NEURAL-OS v5.0 ─────────────────────────────────────────────────────────┐
+│                                                                          │
+│  identity      : Shivam Kumar Chaubey                                    │
+│  designation   : Full-Stack Engineer → AI Engineer                       │
+│  architecture  : systems before syntax                                   │
+│  prime residue : the API contract that doesn't break, the queue that     │
+│                  absorbs a spike, the agent loop that stays traceable    │
+│                  back to its sources                                     │
+│  operating law : software is not a stack of libraries — it is a set of   │
+│                  decisions that have to keep working under pressure      │
+│  strategy      : think like a chess player — plan the structure,         │
+│                  control the center, then commit to the move             │
+│                                                                          │
+└──────────────────────────────── all subsystems nominal ─────────────────┘
+```
+
+> In this network, **repositories are memories**, **commits are electrical impulses**, **technologies are neurons**, and **projects are cognitive functions**. I treat AI as an engineering discipline — retrieval, evaluation, and reliability, not a magic box — and I build backend systems that stay predictable as they grow.
+
+<img src="./assets/svg/neural-divider.svg" width="100%" alt=""/>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--  NEURAL STACK · TECHNOLOGY CORTEX                               -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<a name="stack"></a>
+
+<div align="center">
+
+### `⌬ NEURAL STACK` — 32 Technology Neurons · 6 Cortices
+
+_Every skill is a neuron. Every connection carries live impulses. The network never sleeps._
 
 <br/>
 
-<img src="./assets/svg/divider.svg" width="100%" alt="" />
+<img src="./assets/svg/neural-network.svg" width="100%" alt="Neural map of the full technology stack: language cortex (Python, JavaScript, TypeScript, HTML, CSS), logic cortex (Django, FastAPI, Node.js, Express, REST APIs, Celery), AI cortex (LangGraph, AI Agents, LLM Engineering, Machine Learning, OpenAI, Scikit-Learn), memory cortex (PostgreSQL, MySQL, Redis, Prisma, Pandas, NumPy), interface cortex (React, Next.js, Tailwind CSS, Bootstrap, Flutter, React Native) and infra cortex (Docker, Git, Linux) — all wired to one central core."/>
 
-<!-- ============================================================= -->
-<!--  EXPERTISE                                                     -->
-<!-- ============================================================= -->
+<br/>
+
+<details>
+<summary><b>⌬ &nbsp;Expand neuron cluster — iconic view</b></summary>
+<br/>
+
+**Language Cortex**
+
+<img src="https://skillicons.dev/icons?i=python,js,ts,html,css&theme=dark" alt="Python, JavaScript, TypeScript, HTML, CSS"/>
+
+**Logic Cortex — Backend**
+
+<img src="https://skillicons.dev/icons?i=django,fastapi,nodejs,express&theme=dark" alt="Django, FastAPI, Node.js, Express"/>
+
+**AI Cortex**
+
+<img src="https://skillicons.dev/icons?i=pytorch,sklearn&theme=dark" alt="PyTorch, Scikit-Learn"/>
+
+**Memory Cortex — Data**
+
+<img src="https://skillicons.dev/icons?i=postgres,mysql,redis,prisma&theme=dark" alt="PostgreSQL, MySQL, Redis, Prisma"/>
+
+**Interface Cortex — Frontend & Mobile**
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap,flutter&theme=dark" alt="React, Next.js, Tailwind, Bootstrap, Flutter"/>
+
+**Infra Cortex**
+
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,git,github,linux&theme=dark" alt="Docker, Kubernetes, Git, GitHub, Linux"/>
+
+</details>
+
+</div>
+
+<img src="./assets/svg/neural-divider.svg" width="100%" alt=""/>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--  EVOLUTION PATHWAY                                              -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<a name="evolution"></a>
 
 <div align="center">
 
-### ⬡ What I Build
+### `◈ EVOLUTION PATHWAY` — The Network Rewires Itself
 
-_Four domains, one mindset — design the system, then write the code._
+_Five checkpoints on one fiber-optic spine. The impulse only travels forward._
+
+<br/>
+
+<img src="./assets/svg/neural-timeline.svg" width="100%" alt="Career evolution timeline: checkpoint 1 Full-Stack Developer (Django, React, SQL); checkpoint 2 Backend Engineer (APIs, queues, scale); checkpoint 3 AI Engineer — current stage (RAG, agents, evals, Kafka); checkpoint 4 Agentic AI Developer (LangGraph, tool use, orchestration); checkpoint 5 LLM Specialist (fine-tuning, inference, research)."/>
+
+</div>
+
+<img src="./assets/svg/neural-divider.svg" width="100%" alt=""/>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--  AI MODULES · COGNITIVE FUNCTIONS                               -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<a name="modules"></a>
+
+<div align="center">
+
+### `⬡ AI MODULES` — Cognitive Functions of the Network
+
+_Each project is a specialized module wired directly into the core — its own color, its own function, one design language._
 
 </div>
 
 <br/>
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-#### ⬡ &nbsp;Backend Systems
-
-Reliable services that hold their shape under load — clean REST contracts, normalized data models, async messaging, and deployments that don't surprise you.
-
-`Django` · `DRF` · `PostgreSQL` · `Kafka` · `Redis`
-
-</td>
-<td width="50%" valign="top">
-
-#### ◇ &nbsp;Applied AI
-
-LLM features built as real systems: retrieval-augmented generation, agentic tool-use loops, and evaluation — grounded in data and traceable to sources.
-
-`Claude` · `LangGraph` · `RAG` · `Qdrant` · `ChromaDB`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### ❖ &nbsp;Distributed & Infra
-
-The machinery that keeps services independent and scalable — containerized workers, task queues, event streams, and reproducible deploys.
-
-`Docker` · `Kubernetes` · `Celery` · `GitHub Actions`
-
-</td>
-<td width="50%" valign="top">
-
-#### △ &nbsp;Engineering Foundations
-
-The fundamentals that make the rest hold up — data structures, algorithms, and system-design thinking practiced deliberately, every day.
-
-`DSA` · `System Design` · `Git` · `Linux`
-
-</td>
-</tr>
-</table>
-
-<img src="./assets/svg/divider.svg" width="100%" alt="" />
-
-<!-- ============================================================= -->
-<!--  SELECTED WORK                                                 -->
-<!-- ============================================================= -->
-
+<!-- ── MODULE 01 · DEEPRESEARCH · cyan ── -->
 <div align="center">
 
-### ◆ Selected Work
-
-_A few systems I've designed and shipped._
-
-</div>
-
-<br/>
-
-<!-- DeepResearch — backend/AI flagship, architecture-led -->
-<div align="center">
+<img src="https://img.shields.io/badge/MODULE_01-REASONING_ENGINE-22D3EE?style=for-the-badge&labelColor=050505" alt="Module 01 — Reasoning Engine"/>
 
 #### DeepResearch — Agentic AI Research Assistant
 
@@ -142,7 +168,7 @@ _A few systems I've designed and shipped._
 
 Built as production engineering, not an API call: a Django/DRF API dispatches jobs onto **Kafka**, Python agent-workers run the plan→search→verify→cite loop against **Claude** with **Qdrant** for RAG, and **Redis** fans progress events back to the UI over SSE. Every service is containerized and scales independently on **Kubernetes**.
 
-```
+```text
 React (Vite) ─HTTP/SSE─► Django + DRF ─produce─► Kafka ─consume─► Agent Worker(s)
      ▲                        │   ▲              topics              │
      └─ live progress ◄ Redis ◄┴──────── events ──────────── Claude · Web Search
@@ -150,30 +176,16 @@ React (Vite) ─HTTP/SSE─► Django + DRF ─produce─► Kafka ─consume─
 ```
 
 `Django` · `Kafka` · `Qdrant` · `Redis` · `Claude` · `Docker` · `Kubernetes`
-&nbsp;&nbsp;[**Explore the repository →**](https://github.com/Shivamchaubey14/research-agent)
+&nbsp;&nbsp;[**⌬ Open module →**](https://github.com/Shivamchaubey14/research-agent)
 
 <br/>
 
-<!-- PayZap — backend, architecture-led -->
-<div align="center">
-
-#### PayZap — Payment Gateway Backend
-
-</div>
-
-> A payments platform backed by the unglamorous pieces that actually matter: settlements, payouts, fraud checks, and webhooks that never drop a message.
-
-A Django service split into focused domains — `payments`, `payouts`, `settlements`, `merchants`, `fraud`, and `webhooks` — with monitoring, load tests, and a production Docker Compose stack. The interesting work is correctness under failure: idempotent webhook delivery, settlement reconciliation, and fraud signals evaluated inline.
-
-`Django` · `PostgreSQL` · `Redis` · `Docker` · `Fraud Detection` · `Webhooks`
-&nbsp;&nbsp;[**Explore the repository →**](https://github.com/Shivamchaubey14/payzap)
-
-<br/>
-
-<!-- LexAI — has real screenshot -->
+<!-- ── MODULE 02 · LEXAI · violet ── -->
 <table width="100%">
 <tr>
 <td width="48%" valign="middle">
+
+<img src="https://img.shields.io/badge/MODULE_02-LANGUAGE_COMPREHENSION-A78BFA?style=for-the-badge&labelColor=050505" alt="Module 02 — Language Comprehension"/>
 
 #### LexAI — Legal Contract Intelligence
 
@@ -185,12 +197,12 @@ A **LangGraph** agent drives the loop — searching contract chunks and a legal-
 
 `Django` · `LangGraph` · `ChromaDB` · `Claude Sonnet` · `Celery`
 
-[**Explore the repository →**](https://github.com/Shivamchaubey14/legal-agent)
+[**⌬ Open module →**](https://github.com/Shivamchaubey14/legal-agent)
 
 </td>
 <td width="52%" valign="middle">
 <a href="https://github.com/Shivamchaubey14/legal-agent">
-<img src="./assets/img/lexai.png" width="100%" alt="LexAI — legal contract intelligence agent"/>
+<img src="./assets/img/lexai.png" width="100%" alt="LexAI — legal contract intelligence agent interface"/>
 </a>
 </td>
 </tr>
@@ -198,15 +210,35 @@ A **LangGraph** agent drives the loop — searching contract chunks and a legal-
 
 <br/>
 
-<!-- AlgoScope — has real screenshot -->
+<!-- ── MODULE 03 · PAYZAP · blue ── -->
+<div align="center">
+
+<img src="https://img.shields.io/badge/MODULE_03-TRANSACTION_CORTEX-60A5FA?style=for-the-badge&labelColor=050505" alt="Module 03 — Transaction Cortex"/>
+
+#### PayZap — Payment Gateway Backend
+
+</div>
+
+> A payments platform backed by the unglamorous pieces that actually matter: settlements, payouts, fraud checks, and webhooks that never drop a message.
+
+A Django service split into focused domains — `payments`, `payouts`, `settlements`, `merchants`, `fraud`, and `webhooks` — with monitoring, load tests, and a production Docker Compose stack. The interesting work is correctness under failure: idempotent webhook delivery, settlement reconciliation, and fraud signals evaluated inline.
+
+`Django` · `PostgreSQL` · `Redis` · `Docker` · `Fraud Detection` · `Webhooks`
+&nbsp;&nbsp;[**⌬ Open module →**](https://github.com/Shivamchaubey14/payzap)
+
+<br/>
+
+<!-- ── MODULE 04 · ALGOSCOPE · silver ── -->
 <table width="100%">
 <tr>
 <td width="52%" valign="middle">
 <a href="https://github.com/Shivamchaubey14/leetcode_visualizer">
-<img src="./assets/img/algoscope.png" width="100%" alt="AlgoScope — AI-powered algorithm visualizer"/>
+<img src="./assets/img/algoscope.png" width="100%" alt="AlgoScope — AI-powered algorithm visualizer interface"/>
 </a>
 </td>
 <td width="48%" valign="middle">
+
+<img src="https://img.shields.io/badge/MODULE_04-VISUAL_CORTEX-E2E8F0?style=for-the-badge&labelColor=050505" alt="Module 04 — Visual Cortex"/>
 
 #### AlgoScope — Algorithm Visualizer
 
@@ -218,7 +250,7 @@ Each problem ships with an **AI-generated explanation** (English & Hindi) from L
 
 `Django` · `Python` · `sys.settrace` · `LLaMA 3.1` · `SVG`
 
-[**Explore the repository →**](https://github.com/Shivamchaubey14/leetcode_visualizer)
+[**⌬ Open module →**](https://github.com/Shivamchaubey14/leetcode_visualizer)
 
 </td>
 </tr>
@@ -226,165 +258,145 @@ Each problem ships with an **AI-generated explanation** (English & Hindi) from L
 
 <br/>
 
+<!-- ── orbital repository cards ── -->
 <div align="center">
-<details>
-<summary><b>More from the workshop</b></summary>
+
+<sub>`ORBITAL RING` — modules in active rotation around the core</sub>
+
+<br/><br/>
+
+<a href="https://github.com/Shivamchaubey14/research-agent"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Shivamchaubey14&repo=research-agent&bg_color=0D1117&title_color=22D3EE&icon_color=A78BFA&text_color=9FB0C7&hide_border=true" alt="DeepResearch repository card"/></a>
+<a href="https://github.com/Shivamchaubey14/legal-agent"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Shivamchaubey14&repo=legal-agent&bg_color=0D1117&title_color=A78BFA&icon_color=22D3EE&text_color=9FB0C7&hide_border=true" alt="LexAI repository card"/></a>
+
+<a href="https://github.com/Shivamchaubey14/payzap"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Shivamchaubey14&repo=payzap&bg_color=0D1117&title_color=60A5FA&icon_color=67E8F9&text_color=9FB0C7&hide_border=true" alt="PayZap repository card"/></a>
+<a href="https://github.com/Shivamchaubey14/leetcode_visualizer"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Shivamchaubey14&repo=leetcode_visualizer&bg_color=0D1117&title_color=E2E8F0&icon_color=60A5FA&text_color=9FB0C7&hide_border=true" alt="AlgoScope repository card"/></a>
+
 <br/>
 
-| Project                                                                                         | What it is                                                                                                  | Stack                                   |
-| :---------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- | :-------------------------------------- |
-| [**MilkKart**](https://github.com/Shivamchaubey14/milkkart-backend)                             | Dairy quick-commerce platform — async Django backend + React Native app, Blinkit-style hyper-local delivery | `Django` · `MySQL` · `Redis` · `Celery` |
-| [**Video Renting Services**](https://github.com/Shivamchaubey14/Video-Renting-Backend-Services) | Backend services for a video-rental platform — catalog, rentals, billing                                    | `Django` · `DRF`                        |
-| [**Issue Tracker**](https://github.com/Shivamchaubey14/issue-tracker)                           | Ticketing system to track and resolve common hostel issues                                                  | `Django`                                |
-| [**Solutions**](https://github.com/Shivamchaubey14/Solutions)                                   | A growing library of LeetCode solutions & hints                                                             | `Python`                                |
+<details>
+<summary><b>◇ &nbsp;Deep memory archive — earlier synapses</b></summary>
+<br/>
+
+| Memory                                                                                          | Cognitive function                                                                                           | Neurons involved                        |
+| :---------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------- | :--------------------------------------- |
+| [**MilkKart**](https://github.com/Shivamchaubey14/milkkart-backend)                             | Dairy quick-commerce platform — async Django backend + React Native app, Blinkit-style hyper-local delivery  | `Django` · `MySQL` · `Redis` · `Celery` |
+| [**Video Renting Services**](https://github.com/Shivamchaubey14/Video-Renting-Backend-Services) | Backend services for a video-rental platform — catalog, rentals, billing                                     | `Django` · `DRF`                        |
+| [**Issue Tracker**](https://github.com/Shivamchaubey14/issue-tracker)                           | Ticketing system to track and resolve common hostel issues                                                   | `Django`                                |
+| [**Solutions**](https://github.com/Shivamchaubey14/Solutions)                                   | A growing library of LeetCode solutions & hints — daily DSA impulses                                         | `Python`                                |
 
 </details>
 </div>
 
-<img src="./assets/svg/divider.svg" width="100%" alt="" />
+<img src="./assets/svg/neural-divider.svg" width="100%" alt=""/>
 
-<!-- ============================================================= -->
-<!--  AI SYSTEMS                                                    -->
-<!-- ============================================================= -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--  COMMAND CENTER                                                 -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<a name="command"></a>
 
 <div align="center">
 
-### ◇ AI as an Engineering Discipline
+### `◉ COMMAND CENTER` — Active Processes
 
-_Not a feature bolted on — a set of moving parts that have to be designed, measured, and trusted._
+_What the network is computing right now._
 
 <br/>
-
-<img src="./assets/svg/ai-ecosystem.svg" width="90%" alt="AI engineering ecosystem: LLMs, RAG pipelines, vector search, agents, embeddings, prompt design, tool use and evals connected around an inference core"/>
-
-<br/><br/>
-
-</div>
-
-A useful AI feature is a pipeline, not a prompt. Retrieval decides what the model sees; prompt structure decides how it reasons; evaluation decides whether you can ship it. I build these pieces to fit together — grounding language models in real data, keeping outputs traceable to their sources, and treating _"is this actually correct?"_ as a first-class requirement rather than an afterthought.
-
-<img src="./assets/svg/divider.svg" width="100%" alt="" />
-
-<!-- ============================================================= -->
-<!--  STACK                                                         -->
-<!-- ============================================================= -->
-
-<div align="center">
-
-### ❖ The Toolkit
-
-_Chosen for what they let me build — grouped by where they live in a system._
-
-<br/>
-
-**Languages & Core**
-
-<img src="https://skillicons.dev/icons?i=python,js,ts,html,css&theme=dark" alt="Python, JavaScript, TypeScript, HTML, CSS"/>
-
-**Backend & Data**
-
-<img src="https://skillicons.dev/icons?i=django,fastapi,postgres,mysql,redis,sqlite,kafka&theme=dark" alt="Django, FastAPI, PostgreSQL, MySQL, Redis, SQLite, Kafka"/>
-
-**AI & Frontend**
-
-<img src="https://skillicons.dev/icons?i=pytorch,react,bootstrap,tailwind&theme=dark" alt="PyTorch, React, Bootstrap, Tailwind"/>
-
-**Infrastructure & Tooling**
-
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,git,github,linux,vscode&theme=dark" alt="Docker, Kubernetes, Git, GitHub, Linux, VS Code"/>
-
-</div>
-
-<img src="./assets/svg/divider.svg" width="100%" alt="" />
-
-<!-- ============================================================= -->
-<!--  CURRENT FOCUS                                                 -->
-<!-- ============================================================= -->
-
-<div align="center">
-
-### △ Where My Attention Is Now
-
-</div>
 
 <table width="100%">
 <tr>
-<td width="33%" align="center"><br/><b>Agentic AI</b><br/><sub>RAG, tool use,<br/>evaluation loops</sub><br/><br/></td>
-<td width="33%" align="center"><br/><b>Distributed Backends</b><br/><sub>Kafka, queues,<br/>scale &amp; reliability</sub><br/><br/></td>
-<td width="33%" align="center"><br/><b>Cloud &amp; Containers</b><br/><sub>Docker, Kubernetes,<br/>reproducible deploys</sub><br/><br/></td>
+<td width="25%" align="center"><br/>⌬<br/><br/><b>Agentic AI</b><br/><sub>LangGraph loops · tool use<br/>multi-step orchestration</sub><br/><br/><img src="https://img.shields.io/badge/THREAD-ACTIVE-22D3EE?style=flat-square&labelColor=050505" alt="active"/><br/><br/></td>
+<td width="25%" align="center"><br/>◈<br/><br/><b>LLM Engineering</b><br/><sub>RAG pipelines · evaluation<br/>grounded, cited outputs</sub><br/><br/><img src="https://img.shields.io/badge/THREAD-ACTIVE-A78BFA?style=flat-square&labelColor=050505" alt="active"/><br/><br/></td>
+<td width="25%" align="center"><br/>⬡<br/><br/><b>Distributed Backends</b><br/><sub>Kafka · Celery · Redis<br/>scale &amp; reliability</sub><br/><br/><img src="https://img.shields.io/badge/THREAD-ACTIVE-60A5FA?style=flat-square&labelColor=050505" alt="active"/><br/><br/></td>
+<td width="25%" align="center"><br/>◇<br/><br/><b>Cloud &amp; Containers</b><br/><sub>Docker · Kubernetes<br/>reproducible deploys</sub><br/><br/><img src="https://img.shields.io/badge/THREAD-ACTIVE-67E8F9?style=flat-square&labelColor=050505" alt="active"/><br/><br/></td>
 </tr>
 </table>
 
 <br/>
 
-<div align="center">
-
-[![Currently building](https://img.shields.io/badge/Currently_building-DeepResearch_·_PayZap-7DD3FC?style=flat-square&labelColor=0D1320)](https://github.com/Shivamchaubey14?tab=repositories)
+[![Currently building](https://img.shields.io/badge/FOREGROUND_PROCESS-DeepResearch_·_PayZap-22D3EE?style=flat-square&labelColor=050505)](https://github.com/Shivamchaubey14?tab=repositories)
 &nbsp;
-[![Daily DSA](https://img.shields.io/badge/Daily-DSA_practice-A78BFA?style=flat-square&labelColor=0D1320)](https://github.com/Shivamchaubey14/Solutions)
+[![Daily DSA](https://img.shields.io/badge/DAEMON-daily_DSA_practice-A78BFA?style=flat-square&labelColor=050505)](https://github.com/Shivamchaubey14/Solutions)
+&nbsp;
+[![Learning](https://img.shields.io/badge/BACKGROUND_JOB-LLM_fine--tuning_·_inference-60A5FA?style=flat-square&labelColor=050505)](https://github.com/Shivamchaubey14)
 
 </div>
 
-<img src="./assets/svg/divider.svg" width="100%" alt="" />
+<img src="./assets/svg/neural-divider.svg" width="100%" alt=""/>
 
-<!-- ============================================================= -->
-<!--  STATS                                                         -->
-<!-- ============================================================= -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--  TELEMETRY · NEURAL DASHBOARD                                   -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<a name="telemetry"></a>
 
 <div align="center">
 
-### ▲ The Work, Measured
+### `▲ TELEMETRY` — Impulse Activity, Measured
+
+<img src="./assets/svg/neural-scanner.svg" width="100%" alt="AI activity scanner — analyzing repository telemetry: commits, languages, contribution energy."/>
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Shivamchaubey14&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=7DD3FC&icon_color=A78BFA&text_color=9FB0C7&cache_seconds=86400" height="165" alt="GitHub stats"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Shivamchaubey14&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=A78BFA&text_color=9FB0C7&ring_color=22D3EE&cache_seconds=86400" height="165" alt="GitHub stats"/>
 &nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shivamchaubey14&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=7DD3FC&text_color=9FB0C7&cache_seconds=86400" height="165" alt="Top languages"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shivamchaubey14&layout=donut&langs_count=8&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=9FB0C7&cache_seconds=86400" height="165" alt="Language distribution — radial donut chart"/>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com/?user=Shivamchaubey14&hide_border=true&background=0D1117&ring=7DD3FC&fire=A78BFA&currStreakNum=E6EDF6&currStreakLabel=7DD3FC&sideNums=E6EDF6&sideLabels=9FB0C7&dates=8A99AD&stroke=1F2A3A" height="165" alt="Contribution streak"/>
+<img src="https://streak-stats.demolab.com/?user=Shivamchaubey14&hide_border=true&background=0D1117&ring=22D3EE&fire=A78BFA&currStreakNum=E6F1FF&currStreakLabel=22D3EE&sideNums=E6F1FF&sideLabels=9FB0C7&dates=8A99AD&stroke=1F2A3A" height="165" alt="Contribution streak — impulse continuity"/>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Shivamchaubey14&theme=react-dark&hide_border=true&area=true&bg_color=0D1117&color=7DD3FC&line=A78BFA&point=E6EDF6" width="92%" alt="Contribution activity graph"/>
+<sub>`CONTRIBUTION ENERGY GRID` — every commit lights up the surrounding neurons</sub>
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shivamchaubey14/Shivamchaubey14/output/neural-snake-light.svg">
+  <img src="https://raw.githubusercontent.com/Shivamchaubey14/Shivamchaubey14/output/neural-snake.svg" width="92%" alt="Animated snake consuming the contribution graph — contribution energy grid"/>
+</picture>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Shivamchaubey14&hide_border=true&bg_color=0D1117&color=67E8F9&line=A78BFA&point=E6F1FF&area=true&area_color=164E63" width="92%" alt="Contribution activity waveform"/>
+
+<br/><br/>
+
+<details>
+<summary><b>▲ &nbsp;Full diagnostic readout — isometric calendar, habits, achievements</b></summary>
+<br/>
+<img src="./github-metrics.svg" width="92%" alt="Extended GitHub metrics: isometric contribution calendar, coding habits, languages, achievements and topics"/>
+</details>
 
 </div>
 
-<img src="./assets/svg/divider.svg" width="100%" alt="" />
+<img src="./assets/svg/neural-divider.svg" width="100%" alt=""/>
 
-<!-- ============================================================= -->
-<!--  CONNECT                                                       -->
-<!-- ============================================================= -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--  UPLINK · CONNECT                                               -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<a name="uplink"></a>
 
 <div align="center">
 
-### ◈ Let's build something that has to work.
+### `◇ UPLINK` — Open a Channel to the Core
 
-I'm most interested in conversations about backend architecture, applied AI, and the craft of making software that lasts. If you're working on something ambitious — or hiring for a team that is — I'd like to hear about it.
+I'm most interested in conversations about backend architecture, applied AI, and the craft of making software that lasts. If you're working on something ambitious — or hiring for a team that is — transmit.
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-Shivamchaubey14-E6EDF6?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1320)](https://github.com/Shivamchaubey14)
+[![GitHub](https://img.shields.io/badge/GITHUB-Shivamchaubey14-E6F1FF?style=for-the-badge&logo=github&logoColor=white&labelColor=050505)](https://github.com/Shivamchaubey14)
 &nbsp;
-[![Email](https://img.shields.io/badge/Email-shivamchaubey1412@gmail.com-7DD3FC?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1320)](mailto:shivamchaubey1412@gmail.com)
+[![Email](https://img.shields.io/badge/UPLINK-shivamchaubey1412@gmail.com-22D3EE?style=for-the-badge&logo=gmail&logoColor=white&labelColor=050505)](mailto:shivamchaubey1412@gmail.com)
 &nbsp;
-[![Open to work](https://img.shields.io/badge/Open_to-Backend_·_AI_·_Full--Stack-A78BFA?style=for-the-badge&labelColor=0D1320)](mailto:shivamchaubey1412@gmail.com)
+[![Open to work](https://img.shields.io/badge/ACCEPTING-Backend_·_AI_·_Full--Stack-A78BFA?style=for-the-badge&labelColor=050505)](mailto:shivamchaubey1412@gmail.com)
 
-</div>
-
-<!-- ============================================================= -->
-<!--  FOOTER                                                        -->
-<!-- ============================================================= -->
-
-<img src="./assets/svg/footer-wave.svg" width="100%" alt="" />
-
-<div align="center">
+<br/><br/>
 
 <sub><i>"First, solve the problem. Then, write the code."</i></sub>
 
-<br/>
-
-<sub>Designed &amp; built by Shivam Kumar Chaubey · Uttar Pradesh, India</sub>
-
 </div>
+
+<img src="./assets/svg/neural-footer.svg" width="100%" alt="End of neural stream — connection persists."/>
