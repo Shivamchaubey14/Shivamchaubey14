@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" role="img" aria-label="Boot sequence: initializing neural interface, mounting repositories as memory, loading technology neurons, agentic reasoning loop online. Welcome, visitor — you are now inside the network.">
+  <defs>
+    <linearGradient id="bootEdge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#22D3EE" stop-opacity=".55"/>
+      <stop offset="50%" stop-color="#60A5FA" stop-opacity=".25"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity=".55"/>
+    </linearGradient>
+    <filter id="bootGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .ln  { font-family:'JetBrains Mono','Fira Code',Consolas,monospace; font-size:13px; fill:#9FB0C7; }
+    .cover { transform-box: fill-box; transform-origin: 100% 50%; transform: scaleX(1);
+             animation: type 1.5s steps(42, end) forwards; }
+    .c1 { animation-delay: .5s; }
+    .c2 { animation-delay: 2.4s; }
+    .c3 { animation-delay: 4.3s; }
+    .c4 { animation-delay: 6.2s; }
+    .c5 { animation-delay: 8.1s; }
+    @keyframes type { to { transform: scaleX(0); } }
+    .cursor { opacity:0; animation: blinkin .1s linear 9.7s forwards, blink 1.1s steps(2, jump-none) 9.8s infinite; }
+    @keyframes blinkin { to { opacity:1; } }
+    @keyframes blink { 0% { opacity:1; } 50% { opacity:0; } 100% { opacity:1; } }
+    .scan { animation: scan 7s ease-in-out infinite; }
+    @keyframes scan { 0%,100% { transform: translateX(0); } 50% { transform: translateX(830px); } }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .cover { display:none; }
+      .cursor { opacity:1; }
+    }
+  </style>
+
+  <!-- terminal window -->
+  <rect x="10" y="6" width="880" height="188" rx="13" fill="#0A0F16" stroke="#1C2836" stroke-width="1"/>
+  <rect x="10.5" y="6.5" width="879" height="187" rx="12.5" fill="none" stroke="url(#bootEdge)" stroke-opacity=".35"/>
+
+  <!-- title bar -->
+  <circle cx="34" cy="26" r="4.5" fill="#F87171" opacity=".8"/>
+  <circle cx="50" cy="26" r="4.5" fill="#FBBF24" opacity=".8"/>
+  <circle cx="66" cy="26" r="4.5" fill="#34D399" opacity=".8"/>
+  <text x="450" y="30" text-anchor="middle" class="ln" font-size="11" fill="#5B6B80">shivam@neural-os : ~/boot — v5.0</text>
+  <line x1="10" y1="40" x2="890" y2="40" stroke="#16202D" stroke-width="1"/>
+
+  <!-- faint sweeping scanline -->
+  <rect class="scan" x="20" y="42" width="40" height="150" fill="#22D3EE" opacity=".025"/>
+
+  <!-- boot lines · each revealed by a shrinking cover rect (typewriter) -->
+  <g>
+    <text x="34" y="70"  class="ln"><tspan fill="#22D3EE">❯</tspan> initializing neural interface <tspan fill="#3E4C5E">.....................</tspan> <tspan fill="#34D399" font-weight="bold">OK</tspan></text>
+    <rect class="cover c1" x="30" y="56" width="844" height="20" fill="#0A0F16"/>
+
+    <text x="34" y="96"  class="ln"><tspan fill="#22D3EE">❯</tspan> mounting repositories as long-term memory <tspan fill="#3E4C5E">.........</tspan> <tspan fill="#34D399" font-weight="bold">OK</tspan></text>
+    <rect class="cover c2" x="30" y="82" width="844" height="20" fill="#0A0F16"/>
+
+    <text x="34" y="122" class="ln"><tspan fill="#22D3EE">❯</tspan> loading 32 technology neurons <tspan fill="#3E4C5E">.....................</tspan> <tspan fill="#34D399" font-weight="bold">OK</tspan></text>
+    <rect class="cover c3" x="30" y="108" width="844" height="20" fill="#0A0F16"/>
+
+    <text x="34" y="148" class="ln"><tspan fill="#22D3EE">❯</tspan> agentic reasoning loop <tspan fill="#3E4C5E">........................</tspan> <tspan fill="#67E8F9" font-weight="bold" filter="url(#bootGlow)">ONLINE</tspan></text>
+    <rect class="cover c4" x="30" y="134" width="844" height="20" fill="#0A0F16"/>
+
+    <text x="34" y="176" class="ln" fill="#E6F1FF"><tspan fill="#A78BFA">❯</tspan> welcome, visitor — you are now inside the network</text>
+    <rect class="cover c5" x="30" y="162" width="844" height="20" fill="#0A0F16"/>
+    <rect class="cursor" x="436" y="164" width="8" height="15" fill="#22D3EE" filter="url(#bootGlow)"/>
+  </g>
+</svg>

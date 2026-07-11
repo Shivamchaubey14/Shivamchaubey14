@@ -19,6 +19,15 @@
     @media (prefers-reduced-motion: reduce) { * { animation:none !important; } .pulse { display:none; } }
   </style>
 
+  <!-- dark-theme backdrop · keeps the divider dark on light GitHub theme too -->
+  <linearGradient id="dBg" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"  stop-color="#050505"/>
+    <stop offset="50%" stop-color="#0B1220"/>
+    <stop offset="100%" stop-color="#050505"/>
+  </linearGradient>
+  <rect x="0" y="0" width="1200" height="90" rx="14" fill="url(#dBg)"/>
+  <rect x=".5" y=".5" width="1199" height="89" rx="13.5" fill="none" stroke="#152232" stroke-opacity=".9"/>
+
   <!-- dendrite branches, left -->
   <g fill="none" stroke-opacity=".85">
     <path id="dl1" d="M90,45 C300,45 420,45 560,45" stroke="url(#dL)" stroke-width="1"/>

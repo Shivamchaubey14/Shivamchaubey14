@@ -23,7 +23,7 @@
   <img src="./assets/svg/neural-hero.svg" width="100%" alt="Shivam Kumar Chaubey — central intelligence of a living neural network. Full-stack · backend · applied AI engineer."/>
 </picture>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=2600&pause=900&color=22D3EE&center=true&vCenter=true&width=820&height=42&lines=%3E+initializing+neural+interface+.....................+OK;%3E+mounting+repositories+as+long-term+memory+........+OK;%3E+loading+32+technology+neurons+....................+OK;%3E+agentic+reasoning+loop+.......................+ONLINE;%3E+welcome%2C+visitor+—+you+are+now+inside+the+network" alt="Boot sequence: initializing neural interface, mounting repositories as memory, loading technology neurons, agentic reasoning loop online."/>
+<img src="./assets/svg/neural-boot.svg" width="76%" alt="Boot sequence: initializing neural interface, mounting repositories as memory, loading technology neurons, agentic reasoning loop online. Welcome, visitor — you are now inside the network."/>
 
 <br/>
 
@@ -265,11 +265,9 @@ Each problem ships with an **AI-generated explanation** (English & Hindi) from L
 
 <br/><br/>
 
-<a href="https://github.com/Shivamchaubey14/research-agent"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Shivamchaubey14&repo=research-agent&bg_color=0D1117&title_color=22D3EE&icon_color=A78BFA&text_color=9FB0C7&hide_border=true" alt="DeepResearch repository card"/></a>
-<a href="https://github.com/Shivamchaubey14/legal-agent"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Shivamchaubey14&repo=legal-agent&bg_color=0D1117&title_color=A78BFA&icon_color=22D3EE&text_color=9FB0C7&hide_border=true" alt="LexAI repository card"/></a>
+<a href="https://github.com/Shivamchaubey14/research-agent"><img src="./assets/svg/card-deepresearch.svg" width="49%" alt="DeepResearch repository card — agentic AI research assistant. Django, Kafka, Qdrant, Claude, Kubernetes."/></a>&nbsp;<a href="https://github.com/Shivamchaubey14/legal-agent"><img src="./assets/svg/card-lexai.svg" width="49%" alt="LexAI repository card — legal contract intelligence. LangGraph, ChromaDB, Celery, Claude."/></a>
 
-<a href="https://github.com/Shivamchaubey14/payzap"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Shivamchaubey14&repo=payzap&bg_color=0D1117&title_color=60A5FA&icon_color=67E8F9&text_color=9FB0C7&hide_border=true" alt="PayZap repository card"/></a>
-<a href="https://github.com/Shivamchaubey14/leetcode_visualizer"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Shivamchaubey14&repo=leetcode_visualizer&bg_color=0D1117&title_color=E2E8F0&icon_color=60A5FA&text_color=9FB0C7&hide_border=true" alt="AlgoScope repository card"/></a>
+<a href="https://github.com/Shivamchaubey14/payzap"><img src="./assets/svg/card-payzap.svg" width="49%" alt="PayZap repository card — payment gateway backend. Django, PostgreSQL, Redis, Docker."/></a>&nbsp;<a href="https://github.com/Shivamchaubey14/leetcode_visualizer"><img src="./assets/svg/card-algoscope.svg" width="49%" alt="AlgoScope repository card — AI-powered algorithm visualizer. Python, sys.settrace, LLaMA 3.1, SVG."/></a>
 
 <br/>
 
@@ -303,14 +301,7 @@ _What the network is computing right now._
 
 <br/>
 
-<table width="100%">
-<tr>
-<td width="25%" align="center"><br/>⌬<br/><br/><b>Agentic AI</b><br/><sub>LangGraph loops · tool use<br/>multi-step orchestration</sub><br/><br/><img src="https://img.shields.io/badge/THREAD-ACTIVE-22D3EE?style=flat-square&labelColor=050505" alt="active"/><br/><br/></td>
-<td width="25%" align="center"><br/>◈<br/><br/><b>LLM Engineering</b><br/><sub>RAG pipelines · evaluation<br/>grounded, cited outputs</sub><br/><br/><img src="https://img.shields.io/badge/THREAD-ACTIVE-A78BFA?style=flat-square&labelColor=050505" alt="active"/><br/><br/></td>
-<td width="25%" align="center"><br/>⬡<br/><br/><b>Distributed Backends</b><br/><sub>Kafka · Celery · Redis<br/>scale &amp; reliability</sub><br/><br/><img src="https://img.shields.io/badge/THREAD-ACTIVE-60A5FA?style=flat-square&labelColor=050505" alt="active"/><br/><br/></td>
-<td width="25%" align="center"><br/>◇<br/><br/><b>Cloud &amp; Containers</b><br/><sub>Docker · Kubernetes<br/>reproducible deploys</sub><br/><br/><img src="https://img.shields.io/badge/THREAD-ACTIVE-67E8F9?style=flat-square&labelColor=050505" alt="active"/><br/><br/></td>
-</tr>
-</table>
+<img src="./assets/svg/neural-command.svg" width="100%" alt="Active processes — four live threads: Agentic AI (LangGraph loops, tool use, multi-step orchestration), LLM Engineering (RAG pipelines, evaluation, grounded cited outputs), Distributed Backends (Kafka, Celery, Redis — scale and reliability), Cloud and Containers (Docker, Kubernetes — reproducible deploys)."/>
 
 <br/>
 
@@ -338,9 +329,8 @@ _What the network is computing right now._
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Shivamchaubey14&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=A78BFA&text_color=9FB0C7&ring_color=22D3EE&cache_seconds=86400" height="165" alt="GitHub stats"/>
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shivamchaubey14&layout=donut&langs_count=8&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=9FB0C7&cache_seconds=86400" height="165" alt="Language distribution — radial donut chart"/>
+<!-- hand-built telemetry cards (numbers refreshed manually — GitHub GraphQL, see git history) -->
+<img src="./assets/svg/neural-stats.svg" width="49%" alt="Core telemetry — 1,080 contributions and 967 commits in the past year, 95 pull requests, 49 public repositories."/>&nbsp;<img src="./assets/svg/neural-langs.svg" width="49%" alt="Language cortex — share of code by bytes: Python 52.4%, JavaScript 19.4%, HTML 16.1%, CSS 4.9%, TypeScript 3.3%, SCSS 2.9%, other 1.1%."/>
 
 <br/><br/>
 

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 190" role="img" aria-label="PayZap — payment gateway backend. Django, PostgreSQL, Redis, Docker. Python.">
+  <defs>
+    <radialGradient id="pzGlow" cx="88%" cy="10%" r="70%">
+      <stop offset="0%" stop-color="#60A5FA" stop-opacity=".14"/>
+      <stop offset="100%" stop-color="#60A5FA" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="pzG" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .t  { font-family:'Space Grotesk','Sora','Segoe UI',Helvetica,Arial,sans-serif; }
+    .m  { font-family:'JetBrains Mono','Fira Code',Consolas,monospace; }
+    .np { transform-box: fill-box; transform-origin: center; animation: np 2.8s ease-in-out infinite; }
+    @keyframes np { 0%,100% { transform: scale(1); opacity:.7; } 50% { transform: scale(1.5); opacity:1; } }
+    @media (prefers-reduced-motion: reduce) { * { animation:none !important; } .imp { display:none; } }
+  </style>
+
+  <rect x="1" y="1" width="458" height="188" rx="15" fill="#0D1117" stroke="#60A5FA" stroke-opacity=".38"/>
+  <rect x="1" y="1" width="458" height="188" rx="15" fill="url(#pzGlow)"/>
+
+  <!-- faint synapse constellation -->
+  <g stroke="#60A5FA" stroke-opacity=".18" fill="none">
+    <path id="pzP" d="M300,26 L356,52 L410,30 M356,52 L392,84 L438,66"/>
+  </g>
+  <g fill="#60A5FA">
+    <circle cx="300" cy="26" r="2" opacity=".4"/>
+    <circle class="np" cx="356" cy="52" r="2.4" opacity=".6"/>
+    <circle cx="410" cy="30" r="2" opacity=".4"/>
+    <circle cx="392" cy="84" r="1.8" opacity=".35"/>
+    <circle class="np" cx="438" cy="66" r="2" opacity=".5" style="animation-delay:1.2s"/>
+  </g>
+  <g class="imp" filter="url(#pzG)">
+    <circle r="1.8" fill="#93C5FD"><animateMotion dur="4s" begin=".5s" repeatCount="indefinite"><mpath href="#pzP"/></animateMotion></circle>
+  </g>
+
+  <!-- module badge -->
+  <rect x="22" y="20" width="8" height="8" fill="#60A5FA"/>
+  <text x="38" y="28" class="m" font-size="9.5" letter-spacing="2" fill="#60A5FA">MODULE 03 · TRANSACTION CORTEX</text>
+
+  <!-- title + repo -->
+  <text x="22" y="62" class="t" font-size="23" font-weight="700" fill="#E6F1FF">PayZap</text>
+  <text x="22" y="80" class="m" font-size="10" fill="#5B6B80">Shivamchaubey14/payzap</text>
+
+  <!-- description -->
+  <text x="22" y="104" class="t" font-size="12" fill="#9FB0C7">Payments backend built for correctness under failure —</text>
+  <text x="22" y="120" class="t" font-size="12" fill="#9FB0C7">settlements, payouts, fraud checks, idempotent webhooks.</text>
+
+  <!-- tech chips -->
+  <g class="m" font-size="9.5">
+    <rect x="22"  y="134" width="52" height="18" rx="9" fill="#0F1524" stroke="#274067"/><text x="48"  y="146" text-anchor="middle" fill="#93C5FD">Django</text>
+    <rect x="80"  y="134" width="80" height="18" rx="9" fill="#0F1524" stroke="#274067"/><text x="120" y="146" text-anchor="middle" fill="#93C5FD">PostgreSQL</text>
+    <rect x="166" y="134" width="46" height="18" rx="9" fill="#0F1524" stroke="#274067"/><text x="189" y="146" text-anchor="middle" fill="#93C5FD">Redis</text>
+    <rect x="218" y="134" width="52" height="18" rx="9" fill="#0F1524" stroke="#274067"/><text x="244" y="146" text-anchor="middle" fill="#93C5FD">Docker</text>
+  </g>
+
+  <!-- footer -->
+  <line x1="22" y1="162" x2="438" y2="162" stroke="#16202D"/>
+  <circle cx="27" cy="175" r="4.5" fill="#3572A5"/>
+  <text x="38" y="179" class="m" font-size="10" fill="#9FB0C7">Python</text>
+  <text x="438" y="179" text-anchor="end" class="m" font-size="10" fill="#60A5FA">⬡ open module →</text>
+</svg>

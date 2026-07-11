@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" role="img" aria-label="Active processes: Agentic AI (LangGraph loops, tool use, multi-step orchestration); LLM Engineering (RAG pipelines, evaluation, grounded cited outputs); Distributed Backends (Kafka, Celery, Redis — scale and reliability); Cloud and Containers (Docker, Kubernetes — reproducible deploys). All threads active.">
+  <defs>
+    <linearGradient id="ccFiber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#22D3EE" stop-opacity=".0"/>
+      <stop offset="25%"  stop-color="#22D3EE" stop-opacity=".45"/>
+      <stop offset="50%"  stop-color="#60A5FA" stop-opacity=".45"/>
+      <stop offset="75%"  stop-color="#A78BFA" stop-opacity=".45"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity=".0"/>
+    </linearGradient>
+    <radialGradient id="ccGlow1" cx="50%" cy="0%" r="80%"><stop offset="0%" stop-color="#22D3EE" stop-opacity=".12"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+    <radialGradient id="ccGlow2" cx="50%" cy="0%" r="80%"><stop offset="0%" stop-color="#A78BFA" stop-opacity=".12"/><stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+    <radialGradient id="ccGlow3" cx="50%" cy="0%" r="80%"><stop offset="0%" stop-color="#60A5FA" stop-opacity=".12"/><stop offset="100%" stop-color="#60A5FA" stop-opacity="0"/></radialGradient>
+    <radialGradient id="ccGlow4" cx="50%" cy="0%" r="80%"><stop offset="0%" stop-color="#67E8F9" stop-opacity=".12"/><stop offset="100%" stop-color="#67E8F9" stop-opacity="0"/></radialGradient>
+    <filter id="ccG" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .t  { font-family:'Space Grotesk','Sora','Segoe UI',Helvetica,Arial,sans-serif; }
+    .m  { font-family:'JetBrains Mono','Fira Code',Consolas,monospace; }
+    .gp { transform-box: fill-box; transform-origin: center; animation: gp 3.4s ease-in-out infinite; }
+    @keyframes gp { 0%,100% { transform: scale(1); opacity:.85; } 50% { transform: scale(1.14); opacity:1; } }
+    .dot { animation: dt 1.6s ease-in-out infinite; }
+    @keyframes dt { 0%,100% { opacity:1; } 50% { opacity:.25; } }
+    @media (prefers-reduced-motion: reduce) { * { animation:none !important; } .imp { display:none; } }
+  </style>
+
+  <!-- shared fiber connecting the four threads -->
+  <path id="ccBus" d="M20,125 L1180,125" stroke="url(#ccFiber)" stroke-width="1.2" fill="none"/>
+  <g class="imp" filter="url(#ccG)">
+    <circle r="2.4" fill="#67E8F9"><animateMotion dur="6s" repeatCount="indefinite"><mpath href="#ccBus"/></animateMotion></circle>
+    <circle r="2.4" fill="#C4B5FD"><animateMotion dur="6s" begin="3s" repeatCount="indefinite"><mpath href="#ccBus"/></animateMotion></circle>
+  </g>
+
+  <!-- ── PANEL 1 · AGENTIC AI · cyan ── -->
+  <g>
+    <rect x="16"  y="14" width="278" height="222" rx="16" fill="#0D1117" stroke="#22D3EE" stroke-opacity=".35"/>
+    <rect x="16"  y="14" width="278" height="222" rx="16" fill="url(#ccGlow1)"/>
+    <text class="gp" x="155" y="72" text-anchor="middle" font-size="34" fill="#22D3EE" filter="url(#ccG)">⌬</text>
+    <text class="t" x="155" y="112" text-anchor="middle" font-size="17" font-weight="700" fill="#E6F1FF">Agentic AI</text>
+    <text class="m" x="155" y="136" text-anchor="middle" font-size="10.5" fill="#9FB0C7">LangGraph loops · tool use</text>
+    <text class="m" x="155" y="153" text-anchor="middle" font-size="10.5" fill="#9FB0C7">multi-step orchestration</text>
+    <rect x="88" y="178" width="134" height="26" rx="13" fill="#0A1420" stroke="#22D3EE" stroke-opacity=".5"/>
+    <circle class="dot" cx="104" cy="191" r="3.5" fill="#22D3EE" filter="url(#ccG)"/>
+    <text class="m" x="114" y="195" font-size="9.5" letter-spacing="1.5" fill="#67E8F9">THREAD·ACTIVE</text>
+  </g>
+
+  <!-- ── PANEL 2 · LLM ENGINEERING · violet ── -->
+  <g>
+    <rect x="312" y="14" width="278" height="222" rx="16" fill="#0D1117" stroke="#A78BFA" stroke-opacity=".35"/>
+    <rect x="312" y="14" width="278" height="222" rx="16" fill="url(#ccGlow2)"/>
+    <text class="gp" x="451" y="72" text-anchor="middle" font-size="34" fill="#A78BFA" filter="url(#ccG)" style="animation-delay:.6s">◈</text>
+    <text class="t" x="451" y="112" text-anchor="middle" font-size="17" font-weight="700" fill="#E6F1FF">LLM Engineering</text>
+    <text class="m" x="451" y="136" text-anchor="middle" font-size="10.5" fill="#9FB0C7">RAG pipelines · evaluation</text>
+    <text class="m" x="451" y="153" text-anchor="middle" font-size="10.5" fill="#9FB0C7">grounded, cited outputs</text>
+    <rect x="384" y="178" width="134" height="26" rx="13" fill="#120E20" stroke="#A78BFA" stroke-opacity=".5"/>
+    <circle class="dot" cx="400" cy="191" r="3.5" fill="#A78BFA" filter="url(#ccG)" style="animation-delay:.4s"/>
+    <text class="m" x="410" y="195" font-size="9.5" letter-spacing="1.5" fill="#C4B5FD">THREAD·ACTIVE</text>
+  </g>
+
+  <!-- ── PANEL 3 · DISTRIBUTED BACKENDS · blue ── -->
+  <g>
+    <rect x="608" y="14" width="278" height="222" rx="16" fill="#0D1117" stroke="#60A5FA" stroke-opacity=".35"/>
+    <rect x="608" y="14" width="278" height="222" rx="16" fill="url(#ccGlow3)"/>
+    <text class="gp" x="747" y="72" text-anchor="middle" font-size="34" fill="#60A5FA" filter="url(#ccG)" style="animation-delay:1.2s">⬡</text>
+    <text class="t" x="747" y="112" text-anchor="middle" font-size="17" font-weight="700" fill="#E6F1FF">Distributed Backends</text>
+    <text class="m" x="747" y="136" text-anchor="middle" font-size="10.5" fill="#9FB0C7">Kafka · Celery · Redis</text>
+    <text class="m" x="747" y="153" text-anchor="middle" font-size="10.5" fill="#9FB0C7">scale &amp; reliability</text>
+    <rect x="680" y="178" width="134" height="26" rx="13" fill="#0C1322" stroke="#60A5FA" stroke-opacity=".5"/>
+    <circle class="dot" cx="696" cy="191" r="3.5" fill="#60A5FA" filter="url(#ccG)" style="animation-delay:.8s"/>
+    <text class="m" x="706" y="195" font-size="9.5" letter-spacing="1.5" fill="#93C5FD">THREAD·ACTIVE</text>
+  </g>
+
+  <!-- ── PANEL 4 · CLOUD & CONTAINERS · light cyan ── -->
+  <g>
+    <rect x="904" y="14" width="278" height="222" rx="16" fill="#0D1117" stroke="#67E8F9" stroke-opacity=".35"/>
+    <rect x="904" y="14" width="278" height="222" rx="16" fill="url(#ccGlow4)"/>
+    <text class="gp" x="1043" y="72" text-anchor="middle" font-size="34" fill="#67E8F9" filter="url(#ccG)" style="animation-delay:1.8s">◇</text>
+    <text class="t" x="1043" y="112" text-anchor="middle" font-size="17" font-weight="700" fill="#E6F1FF">Cloud &amp; Containers</text>
+    <text class="m" x="1043" y="136" text-anchor="middle" font-size="10.5" fill="#9FB0C7">Docker · Kubernetes</text>
+    <text class="m" x="1043" y="153" text-anchor="middle" font-size="10.5" fill="#9FB0C7">reproducible deploys</text>
+    <rect x="976" y="178" width="134" height="26" rx="13" fill="#0A1420" stroke="#67E8F9" stroke-opacity=".5"/>
+    <circle class="dot" cx="992" cy="191" r="3.5" fill="#67E8F9" filter="url(#ccG)" style="animation-delay:1.2s"/>
+    <text class="m" x="1002" y="195" font-size="9.5" letter-spacing="1.5" fill="#A5F3FC">THREAD·ACTIVE</text>
+  </g>
+</svg>
